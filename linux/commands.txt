@@ -1,0 +1,16 @@
+
+
+
+
+
+
+mkdir: used to create a directory
+ls: list all
+
+
+
+
+
+
+
+
