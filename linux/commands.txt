@@ -908,9 +908,7 @@ drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Templates
 drwx------  4 vishwaksena vishwaksena 4096 Jun  3 12:12 .thunderbird
 drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Videos
 drwxrwxr-x  5 vishwaksena vishwaksena 4096 Jun  2 15:49 .zoom
-vishwaksena@vishwaksena-Ubuntu:~$ cd ~/.ssh
-vishwaksena@vishwaksena-Ubuntu:~/.ssh$ ssh -keygen
-Bad escape character 'ygen'.
+
 vishwaksena@vishwaksena-Ubuntu:~/.ssh$ ssh-keygen
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/vishwaksena/.ssh/id_rsa): 
