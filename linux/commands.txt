@@ -1,11 +1,1085 @@
 
+chill:
+     [echo] my name is chill
+
+BUILD SUCCESSFUL
+Total time: 1 second
+vishwaksena@vishwaksena-Ubuntu:~/Documents/antpract$ ant
+Buildfile: /home/vishwaksena/Documents/antpract/build.xml
+     [echo] main
+
+chullbull:
+     [echo] my name is chullbull pandey
+
+BUILD SUCCESSFUL
+Total time: 1 second
+vishwaksena@vishwaksena-Ubuntu:~/Documents/antpract$ ant
+Buildfile: /home/vishwaksena/Documents/antpract/build.xml
+     [echo] main
+
+chullbull:
+     [echo] my name is chullbull pandey
+
+chill:
+     [echo] my name is chill
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+vishwaksena@vishwaksena-Ubuntu:~/Documents/antpract$ cclear
+
+Command 'cclear' not found, did you mean:
+
+  command 'clear' from deb ncurses-bin
+  command 'cgclear' from deb cgroup-tools
+
+Try: sudo apt install <deb name>
+
+vishwaksena@vishwaksena-Ubuntu:~/Documents/antpract$ clear
+
+vishwaksena@vishwaksena-Ubuntu:~/Documents/antpract$ yum info httpd
+Error: No matching Packages to list
+vishwaksena@vishwaksena-Ubuntu:~/Documents/antpract$ cd ~
+vishwaksena@vishwaksena-Ubuntu:~$ listall
+listall: command not found
+vishwaksena@vishwaksena-Ubuntu:~$ whereis http
+http:
+vishwaksena@vishwaksena-Ubuntu:~$ ls
+Desktop    Downloads         Music     Public     Videos
+Documents  examples.desktop  Pictures  Templates
+vishwaksena@vishwaksena-Ubuntu:~$ ls -la
+total 116
+drwxr-xr-x 21 vishwaksena vishwaksena 4096 Jun  4 11:11 .
+drwxr-xr-x  3 root        root        4096 Jun  1 17:45 ..
+-rw-------  1 vishwaksena vishwaksena 2404 Jun  4 10:57 .bash_history
+-rw-r--r--  1 vishwaksena vishwaksena  220 Jun  1 15:24 .bash_logout
+-rw-r--r--  1 vishwaksena vishwaksena 3771 Jun  1 15:24 .bashrc
+drwx------ 18 vishwaksena vishwaksena 4096 Jun  3 12:12 .cache
+drwx------ 16 vishwaksena vishwaksena 4096 Jun  4 11:22 .config
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Desktop
+drwxr-xr-x  4 vishwaksena vishwaksena 4096 Jun  4 11:14 Documents
+drwxr-xr-x  4 vishwaksena vishwaksena 4096 Jun  2 15:07 Downloads
+-rw-r--r--  1 vishwaksena vishwaksena 8980 Jun  1 15:24 examples.desktop
+drwx------  3 vishwaksena vishwaksena 4096 Jun  2 14:44 .gnome
+drwx------  3 vishwaksena vishwaksena 4096 Jun  1 16:17 .gnupg
+-rw-------  1 vishwaksena vishwaksena 1476 Jun  4 11:11 .ICEauthority
+drwx------  3 vishwaksena vishwaksena 4096 Jun  1 15:52 .local
+drwx------  5 vishwaksena vishwaksena 4096 Jun  1 16:04 .mozilla
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Music
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Pictures
+drwx------  3 vishwaksena vishwaksena 4096 Jun  2 14:44 .pki
+-rw-r--r--  1 vishwaksena vishwaksena  807 Jun  1 15:24 .profile
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Public
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  3 16:22 .rpmdb
+drwx------  2 vishwaksena vishwaksena 4096 Jun  1 16:17 .ssh
+-rw-r--r--  1 vishwaksena vishwaksena    0 Jun  1 16:21 .sudo_as_admin_successful
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Templates
+drwx------  4 vishwaksena vishwaksena 4096 Jun  3 12:12 .thunderbird
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Videos
+drwxrwxr-x  5 vishwaksena vishwaksena 4096 Jun  2 15:49 .zoom
+vishwaksena@vishwaksena-Ubuntu:~$ whereis apache2
+apache2: /usr/sbin/apache2 /usr/lib/apache2 /etc/apache2 /usr/share/apache2 /usr/share/man/man8/apache2.8.gz
+vishwaksena@vishwaksena-Ubuntu:~$ whereis http
+http:
+vishwaksena@vishwaksena-Ubuntu:~$ info http\
+> 
+info: No menu item 'http' in node '(dir)Top'
+vishwaksena@vishwaksena-Ubuntu:~$ info http
+info: No menu item 'http' in node '(dir)Top'
+vishwaksena@vishwaksena-Ubuntu:~$ info
+vishwaksena@vishwaksena-Ubuntu:~$ yum deplist httpd
+Finding dependencies: 
+vishwaksena@vishwaksena-Ubuntu:~$ yum deplist apache2
+Finding dependencies: 
+vishwaksena@vishwaksena-Ubuntu:~$ deplist http
+deplist: command not found
+vishwaksena@vishwaksena-Ubuntu:~$ deplist
+deplist: command not found
+vishwaksena@vishwaksena-Ubuntu:~$ apache2 -version
+Server version: Apache/2.4.29 (Ubuntu)
+Server built:   2018-04-25T11:38:24
+vishwaksena@vishwaksena-Ubuntu:~$ http -version
+
+Command 'http' not found, but can be installed with:
+
+sudo snap install http  
+sudo apt  install httpie
+
+See 'snap info http' for additional versions.
+
+vishwaksena@vishwaksena-Ubuntu:~$ sudo apt-get install http
+[sudo] password for vishwaksena: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+E: Unable to locate package http
+vishwaksena@vishwaksena-Ubuntu:~$ sudo snap install http
+Mount snap "http" (21)                                               o
+Mount snap "http" (21)                                               O
+Mount snap "http" (21)                                               o
+Mount snap "http" (21)                                               o
+Mount snap "http" (21)                                               o
+Mount snap "http" (21)                                               O
+Mount snap "http" (21)                                               .
+Mount snap "http" (21)                                               o
+Mount snap "http" (21)                                               o
+Mount snap "http" (21)                                               O
+
+Mount snap "http" (21)                                               o
+
+
+Mount snap "http" (21)                                               .
+
+
+
+Mount snap "http" (21)                                               o
+
+
+Mount snap "http" (21)                                               O
+
+
+Mount snap "http" (21)                                               o
+
+
+
+Mount snap "http" (21)                                               .
+
+
+Mount snap "http" (21)                                               o
+
+
+Mount snap "http" (21)                                               O
+
+
+
+Mount snap "http" (21)                                               o
+
+
+Mount snap "http" (21)                                               .
+
+
+Mount snap "http" (21)                                               o
+
+
+
+Mount snap "http" (21)                                               O
+
+
+Mount snap "http" (21)                                               o
+
+
+Mount snap "http" (21)                                               .
+
+
+
+Mount snap "http" (21)                                               o
+
+
+Mount snap "http" (21)                                               O
+
+
+Mount snap "http" (21)                                               o
+
+
+
+Mount snap "http" (21)                                               .
+
+
+Mount snap "http" (21)                                               o
+
+
+Mount snap "http" (21)                                               O
+
+
+
+Mount snap "http" (21)                                               o
+
+
+Mount snap "http" (21)                                               .
+
+
+Mount snap "http" (21)                                               o
+
+
+
+Mount snap "http" (21)                                               O
+
+
+Mount snap "http" (21)                                               o
+
+
+Mount snap "http" (21)                                               .
+
+
+http 0.9.9-1 from 'chipaca' installed
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ http -version
+usage: http [--json] [--form] [--pretty {all,colors,format,none}]
+            [--style STYLE] [--print WHAT] [--headers] [--body] [--verbose]
+            [--all] [--history-print WHAT] [--stream] [--output FILE]
+            [--download] [--continue]
+            [--session SESSION_NAME_OR_PATH | --session-read-only SESSION_NAME_OR_PATH]
+            [--auth USER[:PASS]] [--auth-type {basic,digest}]
+            [--proxy PROTOCOL:PROXY_URL] [--follow]
+            [--max-redirects MAX_REDIRECTS] [--timeout SECONDS]
+            [--check-status] [--verify VERIFY]
+            [--ssl {ssl2.3,tls1,tls1.1,tls1.2}] [--cert CERT]
+            [--cert-key CERT_KEY] [--ignore-stdin] [--help] [--version]
+            [--traceback] [--default-scheme DEFAULT_SCHEME] [--debug]
+            [METHOD] URL [REQUEST_ITEM [REQUEST_ITEM ...]]
+http: error: argument --verbose/-v: ignored explicit argument 'ersion'
+
+vishwaksena@vishwaksena-Ubuntu:~$ whereis http
+http: /snap/bin/http.man /snap/bin/http
+vishwaksena@vishwaksena-Ubuntu:~$ cd /etc/yum.repos.d
+bash: cd: /etc/yum.repos.d: No such file or directory
+vishwaksena@vishwaksena-Ubuntu:~$ whereis yum
+yum: /usr/bin/yum /etc/yum /usr/share/man/man8/yum.8.gz
+vishwaksena@vishwaksena-Ubuntu:~$ man yum
+vishwaksena@vishwaksena-Ubuntu:~$ cd /etc/yum.repos.d
+bash: cd: /etc/yum.repos.d: No such file or directory
+vishwaksena@vishwaksena-Ubuntu:~$ yum install http
+You need to be root to perform this command.
+vishwaksena@vishwaksena-Ubuntu:~$ sudo yum install http
+There are no enabled repos.
+ Run "yum repolist all" to see the repos you have.
+ You can enable repos with yum-config-manager --enable <repo>
+vishwaksena@vishwaksena-Ubuntu:~$ yum repolist all
+repolist: 0
+vishwaksena@vishwaksena-Ubuntu:~$ yum-config-manager enable
+
+Command 'yum-config-manager' not found, but can be installed with:
+
+sudo apt install yum-utils
+
+vishwaksena@vishwaksena-Ubuntu:~$ sudo apt install yum-utils
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  python-iniparse python-six
+The following NEW packages will be installed:
+  python-iniparse python-six yum-utils
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 106 kB of archives.
+After this operation, 528 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python-six all 1.11.0-2 [11.3 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 python-iniparse all 0.4-2.2 [19.6 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 yum-utils all 1.1.31-3 [74.7 kB]
+Fetched 106 kB in 1s (127 kB/s)     
+Selecting previously unselected package python-six.
+(Reading database ... 170749 files and directories currently installed.)
+Preparing to unpack .../python-six_1.11.0-2_all.deb ...
+Unpacking python-six (1.11.0-2) ...
+Selecting previously unselected package python-iniparse.
+Preparing to unpack .../python-iniparse_0.4-2.2_all.deb ...
+Unpacking python-iniparse (0.4-2.2) ...
+Selecting previously unselected package yum-utils.
+Preparing to unpack .../yum-utils_1.1.31-3_all.deb ...
+Unpacking yum-utils (1.1.31-3) ...
+Setting up python-six (1.11.0-2) ...
+Setting up python-iniparse (0.4-2.2) ...
+Processing triggers for man-db (2.8.3-2) ...
+Setting up yum-utils (1.1.31-3) ...
+vishwaksena@vishwaksena-Ubuntu:~$ yum-config-manager enable
+vishwaksena@vishwaksena-Ubuntu:~$ yum reposlist
+No such command: reposlist. Please use /usr/bin/yum --help
+vishwaksena@vishwaksena-Ubuntu:~$ yum repolist
+repolist: 0
+vishwaksena@vishwaksena-Ubuntu:~$ yum repolist all
+repolist: 0
+vishwaksena@vishwaksena-Ubuntu:~$ sudo yum install http
+There are no enabled repos.
+ Run "yum repolist all" to see the repos you have.
+ You can enable repos with yum-config-manager --enable <repo>
+vishwaksena@vishwaksena-Ubuntu:~$ yum-config-manager --enable
+You must be root to change the yum configuration.
+vishwaksena@vishwaksena-Ubuntu:~$ sudo yum-config-manager --enable
+Error: Trying to enable already enabled repos.
+================================ main ================================
+[main]
+alwaysprompt = True
+assumeyes = False
+bandwidth = 0
+bugtracker_url = http://yum.baseurl.org/report
+cache = 0
+cachedir = /var/cache/yum
+clean_requirements_on_remove = False
+color = auto
+color_list_available_downgrade = dim,cyan
+color_list_available_install = normal
+color_list_available_reinstall = bold,underline,green
+color_list_available_upgrade = bold,blue
+color_list_installed_extra = bold,red
+color_list_installed_newer = bold,yellow
+color_list_installed_older = bold
+color_list_installed_reinstall = normal
+color_search_match = bold
+color_update_installed = normal
+color_update_local = bold
+color_update_remote = normal
+commands = 
+debuglevel = 2
+diskspacecheck = True
+distroverpkg = redhat-release
+enable_group_conditionals = True
+enabled = True
+enablegroups = True
+errorlevel = 2
+exactarch = True
+exactarchlist = kernel,
+   kernel-smp,
+   kernel-hugemem,
+   kernel-enterprise,
+   kernel-bigmem,
+   kernel-devel,
+   kernel-PAE,
+   kernel-PAE-debug
+exclude = 
+exit_on_lock = False
+failovermethod = roundrobin
+gaftonmode = False
+gpgcheck = False
+group_package_types = mandatory,
+   default
+groupremove_leaf_only = False
+history_list_view = single-user-commands
+history_record = True
+history_record_packages = yum,
+   rpm
+http_caching = all
+installonly_limit = 0
+installonlypkgs = kernel,
+   kernel-bigmem,
+   kernel-enterprise,
+   kernel-smp,
+   kernel-modules,
+   kernel-debug,
+   kernel-unsupported,
+   kernel-source,
+   kernel-devel,
+   kernel-PAE,
+   kernel-PAE-debug
+installroot = /
+keepalive = True
+keepcache = True
+kernelpkgnames = kernel,
+   kernel-smp,
+   kernel-enterprise,
+   kernel-bigmem,
+   kernel-BOOT,
+   kernel-PAE,
+   kernel-PAE-debug
+loadts_ignoremissing = False
+loadts_ignorerpm = False
+localpkg_gpgcheck = False
+logfile = /var/log/yum.log
+mdpolicy = group:primary
+metadata_expire = 21600
+mirrorlist_expire = 86400
+multilib_policy = all
+obsoletes = True
+overwrite_groups = False
+password = 
+persistdir = /var/lib/yum
+pluginconfpath = /etc/yum/pluginconf.d
+pluginpath = /usr/share/yum-plugins,
+   /usr/lib/yum-plugins
+plugins = False
+progess_obj = 
+protected_multilib = True
+protected_packages = yum
+proxy = 
+proxy_password = 
+proxy_username = 
+recent = 7
+repo_gpgcheck = False
+reposdir = /etc/yum/repos.d,
+   /etc/yum.repos.d
+retries = 10
+rpm_check_debug = True
+rpmverbosity = info
+showdupesfromrepos = False
+skip_broken = False
+sslcacert = 
+sslclientcert = 
+sslclientkey = 
+sslverify = True
+syslog_device = /dev/log
+syslog_facility = LOG_USER
+syslog_ident = 
+throttle = 0
+timeout = 30.0
+tolerant = True
+tsflags = 
+username = 
+
+vishwaksena@vishwaksena-Ubuntu:~$ yum install http
+You need to be root to perform this command.
+vishwaksena@vishwaksena-Ubuntu:~$ sudo yum install http
+There are no enabled repos.
+ Run "yum repolist all" to see the repos you have.
+ You can enable repos with yum-config-manager --enable <repo>
+vishwaksena@vishwaksena-Ubuntu:~$ ssh
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
+           [-D [bind_address:]port] [-E log_file] [-e escape_char]
+           [-F configfile] [-I pkcs11] [-i identity_file]
+           [-J [user@]host[:port]] [-L address] [-l login_name] [-m mac_spec]
+           [-O ctl_cmd] [-o option] [-p port] [-Q query_option] [-R address]
+           [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+           [user@]hostname [command]
+vishwaksena@vishwaksena-Ubuntu:~$ adduser
+adduser: Only root may add a user or group to the system.
+vishwaksena@vishwaksena-Ubuntu:~$ cd /etc/passwd
+bash: cd: /etc/passwd: Not a directory
+vishwaksena@vishwaksena-Ubuntu:~$ cd ~/etc/passwd
+bash: cd: /home/vishwaksena/etc/passwd: No such file or directory
+vishwaksena@vishwaksena-Ubuntu:~$ /etc/passwd
+bash: /etc/passwd: Permission denied
+vishwaksena@vishwaksena-Ubuntu:~$ cd /etc/passwd
+bash: cd: /etc/passwd: Not a directory
+vishwaksena@vishwaksena-Ubuntu:~$ cd /etc
+vishwaksena@vishwaksena-Ubuntu:/etc$ cd passwd
+bash: cd: passwd: Not a directory
+vishwaksena@vishwaksena-Ubuntu:/etc$ ls
+acpi                    hostname          pnm2ppa.conf
+adduser.conf            hosts             polkit-1
+alternatives            hosts.allow       popularity-contest.conf
+anacrontab              hosts.deny        ppp
+apache2                 hp                profile
+apg.conf                ifplugd           profile.d
+apm                     ImageMagick-6     protocols
+apparmor                init              pulse
+apparmor.d              init.d            python
+apport                  initramfs-tools   python2.7
+appstream.conf          inputrc           python3
+apt                     insserv.conf.d    python3.6
+avahi                   iproute2          rc0.d
+bash.bashrc             issue             rc1.d
+bash_completion         issue.net         rc2.d
+bash_completion.d       java-11-openjdk   rc3.d
+bindresvport.blacklist  kernel            rc4.d
+binfmt.d                kernel-img.conf   rc5.d
+bluetooth               kerneloops.conf   rc6.d
+brlapi.key              ldap              rcS.d
+brltty                  ld.so.cache       resolvconf
+brltty.conf             ld.so.conf        resolv.conf
+ca-certificates         ld.so.conf.d      rmt
+ca-certificates.conf    legal             rpc
+calendar                libao.conf        rsyslog.conf
+chatscripts             libaudit.conf     rsyslog.d
+console-setup           libblockdev       sane.d
+cracklib                libnl-3           securetty
+cron.d                  libpaper.d        security
+cron.daily              libreoffice       selinux
+cron.hourly             lintianrc         sensors3.conf
+cron.monthly            locale.alias      sensors.d
+crontab                 locale.gen        services
+cron.weekly             localtime         shadow
+cups                    logcheck          shadow-
+cupshelpers             login.defs        shells
+dbus-1                  logrotate.conf    skel
+dconf                   logrotate.d       speech-dispatcher
+debconf.conf            lsb-release       ssh
+debian_version          ltrace.conf       ssl
+default                 machine-id        subgid
+deluser.conf            magic             subgid-
+depmod.d                magic.mime        subuid
+dhcp                    mailcap           subuid-
+dictionaries-common     mailcap.order     sudoers
+dkms                    manpath.config    sudoers.d
+dpkg                    mime.types        sysctl.conf
+drirc                   mke2fs.conf       sysctl.d
+emacs                   modprobe.d        systemd
+environment             modules           terminfo
+firefox                 modules-load.d    thermald
+fonts                   mtab              thunderbird
+fstab                   mtools.conf       timezone
+fuse.conf               nanorc            tmpfiles.d
+fwupd                   netplan           ucf.conf
+gai.conf                network           udev
+gdb                     NetworkManager    udisks2
+gdm3                    networks          ufw
+geoclue                 newt              updatedb.conf
+ghostscript             nsswitch.conf     update-manager
+glvnd                   opt               update-motd.d
+gnome                   oracle-java9-jdk  update-notifier
+groff                   os-release        UPower
+group                   PackageKit        usb_modeswitch.conf
+group-                  pam.conf          usb_modeswitch.d
+grub.d                  pam.d             vim
+gshadow                 papersize         vtrgb
+gshadow-                passwd            wgetrc
+gss                     passwd-           wpa_supplicant
+gtk-2.0                 pcmcia            X11
+gtk-3.0                 perl              xdg
+hdparm.conf             pki               yum
+host.conf               pm                zsh_command_not_found
+vishwaksena@vishwaksena-Ubuntu:/etc$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd/netif:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd/resolve:/usr/sbin/nologin
+syslog:x:102:106::/home/syslog:/usr/sbin/nologin
+messagebus:x:103:107::/nonexistent:/usr/sbin/nologin
+_apt:x:104:65534::/nonexistent:/usr/sbin/nologin
+uuidd:x:105:111::/run/uuidd:/usr/sbin/nologin
+avahi-autoipd:x:106:112:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:107:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+dnsmasq:x:108:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+rtkit:x:109:114:RealtimeKit,,,:/proc:/usr/sbin/nologin
+speech-dispatcher:x:110:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/false
+whoopsie:x:111:117::/nonexistent:/bin/false
+kernoops:x:112:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+saned:x:113:119::/var/lib/saned:/usr/sbin/nologin
+pulse:x:114:120:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
+avahi:x:115:122:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
+colord:x:116:123:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+hplip:x:117:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+geoclue:x:118:124::/var/lib/geoclue:/usr/sbin/nologin
+gnome-initial-setup:x:119:65534::/run/gnome-initial-setup/:/bin/false
+gdm:x:120:125:Gnome Display Manager:/var/lib/gdm3:/bin/false
+vishwaksena:x:1000:1000:Vishwaksena,,,:/home/vishwaksena:/bin/bash
+vishwaksena@vishwaksena-Ubuntu:/etc$ cs ~
+
+
+
+
+:q
+
+
+^[exit
+
+Command 'cs' not found, but can be installed with:
+
+sudo apt install csound
+
+exvishwaksena@vishwaksena-Ubuntu:/etc$ 
+vishwaksena@vishwaksena-Ubuntu:/etc$ 
+vishwaksena@vishwaksena-Ubuntu:/etc$ 
+vishwaksena@vishwaksena-Ubuntu:/etc$ 
+vishwaksena@vishwaksena-Ubuntu:/etc$ :q
+:q: command not found
+vishwaksena@vishwaksena-Ubuntu:/etc$ 
+vishwaksena@vishwaksena-Ubuntu:/etc$ 
+vishwaksena@vishwaksena-Ubuntu:/etc$ xit
+
+Command 'xit' not found, did you mean:
+
+  command 'xt' from snap xt
+  command 'git' from deb git
+  command 'wit' from deb wit
+  command 'xwit' from deb xwit
+  command 'xvt' from deb xvt
+  command 'xia' from deb xia
+  command 'nit' from deb python-nevow
+  command 'vit' from deb vit
+
+See 'snap info <snapname>' for additional versions.
+
+vishwaksena@vishwaksena-Ubuntu:/etc$ cd ~
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ cat /Documents/build.xml
+cat: /Documents/build.xml: No such file or directory
+vishwaksena@vishwaksena-Ubuntu:~$ cat ~/Documents/build.xml
+cat: /home/vishwaksena/Documents/build.xml: No such file or directory
+vishwaksena@vishwaksena-Ubuntu:~$ info cat
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ man cat
+vishwaksena@vishwaksena-Ubuntu:~$ sudo useradd sena
+vishwaksena@vishwaksena-Ubuntu:~$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd/netif:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd/resolve:/usr/sbin/nologin
+syslog:x:102:106::/home/syslog:/usr/sbin/nologin
+messagebus:x:103:107::/nonexistent:/usr/sbin/nologin
+_apt:x:104:65534::/nonexistent:/usr/sbin/nologin
+uuidd:x:105:111::/run/uuidd:/usr/sbin/nologin
+avahi-autoipd:x:106:112:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:107:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+dnsmasq:x:108:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+rtkit:x:109:114:RealtimeKit,,,:/proc:/usr/sbin/nologin
+speech-dispatcher:x:110:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/false
+whoopsie:x:111:117::/nonexistent:/bin/false
+kernoops:x:112:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+saned:x:113:119::/var/lib/saned:/usr/sbin/nologin
+pulse:x:114:120:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
+avahi:x:115:122:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
+colord:x:116:123:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+hplip:x:117:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+geoclue:x:118:124::/var/lib/geoclue:/usr/sbin/nologin
+gnome-initial-setup:x:119:65534::/run/gnome-initial-setup/:/bin/false
+gdm:x:120:125:Gnome Display Manager:/var/lib/gdm3:/bin/false
+vishwaksena:x:1000:1000:Vishwaksena,,,:/home/vishwaksena:/bin/bash
+sena:x:1001:1001::/home/sena:/bin/sh
+vishwaksena@vishwaksena-Ubuntu:~$ yum search httpd
+Warning: No matches found for: httpd
+No Matches found
+vishwaksena@vishwaksena-Ubuntu:~$ su sena
+Password: 
+su: Authentication failure
+vishwaksena@vishwaksena-Ubuntu:~$ passwd sena 
+passwd: You may not view or modify password information for sena.
+vishwaksena@vishwaksena-Ubuntu:~$ sudo passwd sena
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+vishwaksena@vishwaksena-Ubuntu:~$ su sena
+Password: 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ sudo -v
+Sorry, user sena may not run sudo on vishwaksena-Ubuntu.
+$ su vishwaksena
+Password: 
+vishwaksena@vishwaksena-Ubuntu:~$ root
+
+Command 'root' not found, did you mean:
+
+  command 'roo' from snap roo
+  command 'proot' from deb proot
+  command 'rootv' from deb xawtv
+  command 'rott' from deb rott
+
+See 'snap info <snapname>' for additional versions.
+
+vishwaksena@vishwaksena-Ubuntu:~$ su root
+Password: 
+su: Authentication failure
+vishwaksena@vishwaksena-Ubuntu:~$ su root
+Password: 
+su: Authentication failure
+vishwaksena@vishwaksena-Ubuntu:~$ sudo -i
+root@vishwaksena-Ubuntu:~# /etc/ssh/sshd_config
+-bash: /etc/ssh/sshd_config: No such file or directory
+root@vishwaksena-Ubuntu:~# cd /etc/ssh/sshd_config
+-bash: cd: /etc/ssh/sshd_config: No such file or directory
+root@vishwaksena-Ubuntu:~# cd /etc
+root@vishwaksena-Ubuntu:/etc# cd ssh
+root@vishwaksena-Ubuntu:/etc/ssh# cd sshd_config
+-bash: cd: sshd_config: No such file or directory
+root@vishwaksena-Ubuntu:/etc/ssh# su vishwaksena
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ cd ~
+vishwaksena@vishwaksena-Ubuntu:~$ su sena
+Password: 
+$ ls
+Desktop    Downloads	     Music     Public  Templates
+Documents  examples.desktop  Pictures  snap    Videos
+$ ls -la
+total 120
+drwxr-xr-x 22 vishwaksena vishwaksena 4096 Jun  4 12:46 .
+drwxr-xr-x  3 root        root        4096 Jun  1 17:45 ..
+-rw-------  1 vishwaksena vishwaksena 2404 Jun  4 10:57 .bash_history
+-rw-r--r--  1 vishwaksena vishwaksena  220 Jun  1 15:24 .bash_logout
+-rw-r--r--  1 vishwaksena vishwaksena 3771 Jun  1 15:24 .bashrc
+drwx------ 18 vishwaksena vishwaksena 4096 Jun  3 12:12 .cache
+drwx------ 16 vishwaksena vishwaksena 4096 Jun  4 11:22 .config
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Desktop
+drwxr-xr-x  4 vishwaksena vishwaksena 4096 Jun  4 11:14 Documents
+drwxr-xr-x  4 vishwaksena vishwaksena 4096 Jun  2 15:07 Downloads
+-rw-r--r--  1 vishwaksena vishwaksena 8980 Jun  1 15:24 examples.desktop
+drwx------  3 vishwaksena vishwaksena 4096 Jun  2 14:44 .gnome
+drwx------  3 vishwaksena vishwaksena 4096 Jun  1 16:17 .gnupg
+-rw-------  1 vishwaksena vishwaksena 1476 Jun  4 11:11 .ICEauthority
+drwx------  3 vishwaksena vishwaksena 4096 Jun  1 15:52 .local
+drwx------  5 vishwaksena vishwaksena 4096 Jun  1 16:04 .mozilla
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Music
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Pictures
+drwx------  3 vishwaksena vishwaksena 4096 Jun  2 14:44 .pki
+-rw-r--r--  1 vishwaksena vishwaksena  807 Jun  1 15:24 .profile
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Public
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  3 16:22 .rpmdb
+drwxr-xr-x  3 vishwaksena vishwaksena 4096 Jun  4 12:46 snap
+drwx------  2 vishwaksena vishwaksena 4096 Jun  1 16:17 .ssh
+-rw-r--r--  1 vishwaksena vishwaksena    0 Jun  1 16:21 .sudo_as_admin_successful
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Templates
+drwx------  4 vishwaksena vishwaksena 4096 Jun  3 12:12 .thunderbird
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Videos
+drwxrwxr-x  5 vishwaksena vishwaksena 4096 Jun  2 15:49 .zoom
+$ cd .ssh
+sh: 3: cd: can't cd to .ssh
+$ cd /ssh
+sh: 4: cd: can't cd to /ssh
+$ cd /sudo_as_admin			
+sh: 5: cd: can't cd to /sudo_as_admin
+$ cd desktop
+sh: 6: cd: can't cd to desktop
+$ cd /Desktop
+sh: 7: cd: can't cd to /Desktop
+$ cd ~/Desktop
+sh: 8: cd: can't cd to /home/sena/Desktop
+$ cd /Videos
+sh: 9: cd: can't cd to /Videos
+$ ^C
+$ su vishwaksena
+Password: 
+vishwaksena@vishwaksena-Ubuntu:~$ ls
+Desktop    Downloads         Music     Public  Templates
+Documents  examples.desktop  Pictures  snap    Videos
+vishwaksena@vishwaksena-Ubuntu:~$ cd /Documenst
+bash: cd: /Documenst: No such file or directory
+vishwaksena@vishwaksena-Ubuntu:~$ cd /Documents
+bash: cd: /Documents: No such file or directory
+vishwaksena@vishwaksena-Ubuntu:~$ cd ~/Documents/
+vishwaksena@vishwaksena-Ubuntu:~/Documents$ ls
+ antpract   git   lint.txt  'QuikPAY(R) Payment Receipt.pdf'
+vishwaksena@vishwaksena-Ubuntu:~/Documents$ ssh -keygen
+Bad escape character 'ygen'.
+vishwaksena@vishwaksena-Ubuntu:~/Documents$ keygen
+
+Command 'keygen' not found, did you mean:
+
+  command 'ikeygen' from deb pidentd
+  command 'ckeygen' from deb python-twisted-core
+
+Try: sudo apt install <deb name>
+
+vishwaksena@vishwaksena-Ubuntu:~/Documents$ ssh keygen
+ssh: Could not resolve hostname keygen: Name or service not known
+vishwaksena@vishwaksena-Ubuntu:~/Documents$ ssh key-gen
+ssh: Could not resolve hostname key-gen: Name or service not known
+vishwaksena@vishwaksena-Ubuntu:~/Documents$ cd /.ssh
+bash: cd: /.ssh: No such file or directory
+vishwaksena@vishwaksena-Ubuntu:~/Documents$ cd ~
+vishwaksena@vishwaksena-Ubuntu:~$ cd /.ssh
+bash: cd: /.ssh: No such file or directory
+vishwaksena@vishwaksena-Ubuntu:~$ ls -la
+total 120
+drwxr-xr-x 22 vishwaksena vishwaksena 4096 Jun  4 12:46 .
+drwxr-xr-x  3 root        root        4096 Jun  1 17:45 ..
+-rw-------  1 vishwaksena vishwaksena 2404 Jun  4 10:57 .bash_history
+-rw-r--r--  1 vishwaksena vishwaksena  220 Jun  1 15:24 .bash_logout
+-rw-r--r--  1 vishwaksena vishwaksena 3771 Jun  1 15:24 .bashrc
+drwx------ 18 vishwaksena vishwaksena 4096 Jun  3 12:12 .cache
+drwx------ 16 vishwaksena vishwaksena 4096 Jun  4 11:22 .config
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Desktop
+drwxr-xr-x  4 vishwaksena vishwaksena 4096 Jun  4 11:14 Documents
+drwxr-xr-x  4 vishwaksena vishwaksena 4096 Jun  2 15:07 Downloads
+-rw-r--r--  1 vishwaksena vishwaksena 8980 Jun  1 15:24 examples.desktop
+drwx------  3 vishwaksena vishwaksena 4096 Jun  2 14:44 .gnome
+drwx------  3 vishwaksena vishwaksena 4096 Jun  1 16:17 .gnupg
+-rw-------  1 vishwaksena vishwaksena 1476 Jun  4 11:11 .ICEauthority
+drwx------  3 vishwaksena vishwaksena 4096 Jun  1 15:52 .local
+drwx------  5 vishwaksena vishwaksena 4096 Jun  1 16:04 .mozilla
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Music
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Pictures
+drwx------  3 vishwaksena vishwaksena 4096 Jun  2 14:44 .pki
+-rw-r--r--  1 vishwaksena vishwaksena  807 Jun  1 15:24 .profile
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Public
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  3 16:22 .rpmdb
+drwxr-xr-x  3 vishwaksena vishwaksena 4096 Jun  4 12:46 snap
+drwx------  2 vishwaksena vishwaksena 4096 Jun  1 16:17 .ssh
+-rw-r--r--  1 vishwaksena vishwaksena    0 Jun  1 16:21 .sudo_as_admin_successful
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Templates
+drwx------  4 vishwaksena vishwaksena 4096 Jun  3 12:12 .thunderbird
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Videos
+drwxrwxr-x  5 vishwaksena vishwaksena 4096 Jun  2 15:49 .zoom
+vishwaksena@vishwaksena-Ubuntu:~$ cd ~/.ssh
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ ssh -keygen
+Bad escape character 'ygen'.
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/vishwaksena/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/vishwaksena/.ssh/id_rsa.
+Your public key has been saved in /home/vishwaksena/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:LoYq4k6oo4NXsttSjl+l/CS4e67hU2eK4sePtRsK20Q vishwaksena@vishwaksena-Ubuntu
+The key's randomart image is:
++---[RSA 2048]----+
+|                 |
+|                 |
+|                 |
+|                 |
+|    E   S        |
+|. ..o+.+o        |
+|o..O=oX+o        |
+|O *O*OoB         |
+|BO=*@B=..        |
++----[SHA256]-----+
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ ls
+id_rsa  id_rsa.pub
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ cd /id_rsa
+bash: cd: /id_rsa: No such file or directory
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ cat /id_rsa
+cat: /id_rsa: No such file or directory
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ vi  id_rsa
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ cat id_rsa
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpQIBAAKCAQEA49WHUYNGh8KWAVkXW3T2kfvRxbwt2fSrh8jI6XisWvr/ryCe
+zN7vpkZw9KbDdGNs5xIEAWB3bcSGojRZw83ejts89cTtSphb88II1pLMq18Q/Njj
+Lu9MYVO3p9dyMddl0FsMBq+CulAmp/hBE6MhcE2izLeg/1LpuhVEO3C5NJy1pPqe
+1Wkn11tZrjdwMSQUOFAunH3jQ/BGOigsgs7d3OdxbVxeMWX/+1FT+7eMmWu/sX3l
+l6vsb1O+xll0YGvrCmwfUvn2CkRItj8vDH3nJVqc7loMSO79XZBEKazdv5sUCdpJ
+BYabNetnydMhV7ehTArtqhiv9t1Et8u3lpv4gQIDAQABAoIBAQDitS4ymTtMif70
+Fm/cjLVyLC7f4NGLSSCKO+xYDcELwyk7XW1HFStIvF1XxL1HCkxqXg3oRNJyQpVp
+wEf2Q9uLMXMmZ69rg9Iz60caJPdOK4ne3/6oTGwniMN+Wy8Bk4F3Y7HC0VB3Dpx4
+ldpDrRbwBgDSToMArcNvbAv6Tb+tLcYYYxfAXKRbuGttyX5UOIP8EIVmSWEXdWmd
+J3Bsci4etOURq85xeKg5KAdkiREV+43nww7vGdeSawnL8gr6IUcdL69NU5xaDgVN
+QJr8Xt7pCMx45I3g+N7tDjvWbihkSI1BauvdYgXm4kiLfMXD5NdVQ36oGrlBywgg
+O5NmoKLxAoGBAPNbjRWdaCScTYbFFYqJngJhNSflfW2TubRnykF8+GwR4IBTdxeC
+v5D14IJ1izv2kJkp9PaZeoeUMM9icrXQduaZnPxYsQU3btFdLhPNo5QHSlM/xiKx
+mvgbdpfTNp1qjDxBfIjHrIextPG9CChJT2oejJ5sRyVL1AErch3qlF/dAoGBAO+r
+hx9c/UjOeg1QnYqK2gyX58eXjP+ha2ZoBbAfo2TQxCsTek2ZGSQOCmrF91guU3t3
+YpfsLOJ+ZU/st4cQw0dw4W2RYqydG04bwtlEocJ3ppzXz+mFtwxOEJwCMe9QZQP4
+JdxxIOKSjV5GBd0behmD9pUSU0kBrElRXXntxoL1AoGBAJ2h+MI+gp3sTN92O9zQ
+BXS/KKJeKZ/X55tu+3juDTBbaBNXfTXScGniinmW0AiYTtOXdOBjTBYULIW43Fre
+3JXEfQaMIKYjYPnmpJkZQ9L34fIIxjvk1V/O0kPIAYF36byCIruqsxv2RSGs82K9
+Ed7ISQe5VWBYPMxBKxsrvs5VAoGBAOHSJpDgly5gjhO5n5cIWYeAIb2oCAxc1cs5
+vBJE3TmCkzNbOOOgm1WjfSE5wmJt0+8Df/xRZcFLAr6Z9hrnKnhH3b/VOroVlcK0
+2ZTJ2/hVsMEbfyUy/lQzweadEtvATk29JD9ewHN7ToRDSgcZeqRL+KxhBeRGFUVH
+yuG1rlN5AoGAQ173K4JbLLWiBmgrytyjJOpzl/aIa5ZBT13TrraprAFadUARq01J
+SNtxQ6MA5UwFtE8VXI1yZWQgfQyQejU3hmcytzfFyiFp5uL4lZLgXcif4KorRZdT
+sghvqeLwOVruvlQgAlO1xeGKWu57e1MxczsHgS4nbZqyq4iwZoe+UBw=
+-----END RSA PRIVATE KEY-----
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ cat ~/.ssh/id_rsa
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpQIBAAKCAQEA49WHUYNGh8KWAVkXW3T2kfvRxbwt2fSrh8jI6XisWvr/ryCe
+zN7vpkZw9KbDdGNs5xIEAWB3bcSGojRZw83ejts89cTtSphb88II1pLMq18Q/Njj
+Lu9MYVO3p9dyMddl0FsMBq+CulAmp/hBE6MhcE2izLeg/1LpuhVEO3C5NJy1pPqe
+1Wkn11tZrjdwMSQUOFAunH3jQ/BGOigsgs7d3OdxbVxeMWX/+1FT+7eMmWu/sX3l
+l6vsb1O+xll0YGvrCmwfUvn2CkRItj8vDH3nJVqc7loMSO79XZBEKazdv5sUCdpJ
+BYabNetnydMhV7ehTArtqhiv9t1Et8u3lpv4gQIDAQABAoIBAQDitS4ymTtMif70
+Fm/cjLVyLC7f4NGLSSCKO+xYDcELwyk7XW1HFStIvF1XxL1HCkxqXg3oRNJyQpVp
+wEf2Q9uLMXMmZ69rg9Iz60caJPdOK4ne3/6oTGwniMN+Wy8Bk4F3Y7HC0VB3Dpx4
+ldpDrRbwBgDSToMArcNvbAv6Tb+tLcYYYxfAXKRbuGttyX5UOIP8EIVmSWEXdWmd
+J3Bsci4etOURq85xeKg5KAdkiREV+43nww7vGdeSawnL8gr6IUcdL69NU5xaDgVN
+QJr8Xt7pCMx45I3g+N7tDjvWbihkSI1BauvdYgXm4kiLfMXD5NdVQ36oGrlBywgg
+O5NmoKLxAoGBAPNbjRWdaCScTYbFFYqJngJhNSflfW2TubRnykF8+GwR4IBTdxeC
+v5D14IJ1izv2kJkp9PaZeoeUMM9icrXQduaZnPxYsQU3btFdLhPNo5QHSlM/xiKx
+mvgbdpfTNp1qjDxBfIjHrIextPG9CChJT2oejJ5sRyVL1AErch3qlF/dAoGBAO+r
+hx9c/UjOeg1QnYqK2gyX58eXjP+ha2ZoBbAfo2TQxCsTek2ZGSQOCmrF91guU3t3
+YpfsLOJ+ZU/st4cQw0dw4W2RYqydG04bwtlEocJ3ppzXz+mFtwxOEJwCMe9QZQP4
+JdxxIOKSjV5GBd0behmD9pUSU0kBrElRXXntxoL1AoGBAJ2h+MI+gp3sTN92O9zQ
+BXS/KKJeKZ/X55tu+3juDTBbaBNXfTXScGniinmW0AiYTtOXdOBjTBYULIW43Fre
+3JXEfQaMIKYjYPnmpJkZQ9L34fIIxjvk1V/O0kPIAYF36byCIruqsxv2RSGs82K9
+Ed7ISQe5VWBYPMxBKxsrvs5VAoGBAOHSJpDgly5gjhO5n5cIWYeAIb2oCAxc1cs5
+vBJE3TmCkzNbOOOgm1WjfSE5wmJt0+8Df/xRZcFLAr6Z9hrnKnhH3b/VOroVlcK0
+2ZTJ2/hVsMEbfyUy/lQzweadEtvATk29JD9ewHN7ToRDSgcZeqRL+KxhBeRGFUVH
+yuG1rlN5AoGAQ173K4JbLLWiBmgrytyjJOpzl/aIa5ZBT13TrraprAFadUARq01J
+SNtxQ6MA5UwFtE8VXI1yZWQgfQyQejU3hmcytzfFyiFp5uL4lZLgXcif4KorRZdT
+sghvqeLwOVruvlQgAlO1xeGKWu57e1MxczsHgS4nbZqyq4iwZoe+UBw=
+-----END RSA PRIVATE KEY-----
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ ssh-copy-id sena@localhost
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/vishwaksena/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+
+/usr/bin/ssh-copy-id: ERROR: ssh: connect to host localhost port 22: Connection refused
+
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ ssh-copy-id sena
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/vishwaksena/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+
+/usr/bin/ssh-copy-id: ERROR: ssh: Could not resolve hostname sena: Name or service not known
+
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ ssh-copy-id sena@localhost
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/vishwaksena/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+
+/usr/bin/ssh-copy-id: ERROR: ssh: connect to host localhost port 22: Connection refused
+
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ su sena
+Password: 
+$ sena
+sh: 1: sena: not found
+$ ^Zman       
+What manual page do you want?
+$ exit
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ ssh-copy-id sena@localhost
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/vishwaksena/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+
+/usr/bin/ssh-copy-id: ERROR: ssh: connect to host localhost port 22: Connection refused
+
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ ls
+id_rsa  id_rsa.pub
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ cd /etc/ssh
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ ls
+moduli  ssh_config
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ sudo apt-get install ssh
+[sudo] password for vishwaksena: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  ncurses-term openssh-server openssh-sftp-server ssh-import-id
+Suggested packages:
+  molly-guard monkeysphere rssh ssh-askpass
+The following NEW packages will be installed:
+  ncurses-term openssh-server openssh-sftp-server ssh ssh-import-id
+0 upgraded, 5 newly installed, 0 to remove and 0 not upgraded.
+Need to get 642 kB of archives.
+After this operation, 5,428 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 openssh-sftp-server amd64 1:7.6p1-4 [45.5 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 openssh-server amd64 1:7.6p1-4 [332 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 ssh all 1:7.6p1-4 [5,188 B]
+Get:4 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 ncurses-term all 6.1-1ubuntu1 [248 kB]
+Get:5 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 ssh-import-id all 5.7-0ubuntu1.1 [10.9 kB]
+Fetched 642 kB in 1s (916 kB/s)           
+Preconfiguring packages ...
+Selecting previously unselected package openssh-sftp-server.
+(Reading database ... 170824 files and directories currently installed.)
+Preparing to unpack .../openssh-sftp-server_1%3a7.6p1-4_amd64.deb ...
+Unpacking openssh-sftp-server (1:7.6p1-4) ...
+Selecting previously unselected package openssh-server.
+Preparing to unpack .../openssh-server_1%3a7.6p1-4_amd64.deb ...
+Unpacking openssh-server (1:7.6p1-4) ...
+Selecting previously unselected package ssh.
+Preparing to unpack .../ssh_1%3a7.6p1-4_all.deb ...
+Unpacking ssh (1:7.6p1-4) ...
+Selecting previously unselected package ncurses-term.
+Preparing to unpack .../ncurses-term_6.1-1ubuntu1_all.deb ...
+Unpacking ncurses-term (6.1-1ubuntu1) ...
+Selecting previously unselected package ssh-import-id.
+Preparing to unpack .../ssh-import-id_5.7-0ubuntu1.1_all.deb ...
+Unpacking ssh-import-id (5.7-0ubuntu1.1) ...
+Setting up ncurses-term (6.1-1ubuntu1) ...
+Processing triggers for ufw (0.35-5) ...
+Processing triggers for ureadahead (0.100.0-20) ...
+ureadahead will be reprofiled on next reboot
+Setting up openssh-sftp-server (1:7.6p1-4) ...
+Processing triggers for systemd (237-3ubuntu10) ...
 
 
 
 
 
-mkdir: used to create a directory
-ls: list all
 
 
 
@@ -13,4 +1087,1472 @@ ls: list all
 
 
 
+
+
+Processing triggers for man-db (2.8.3-2) ...
+Setting up ssh-import-id (5.7-0ubuntu1.1) ...
+Setting up openssh-server (1:7.6p1-4) ...
+
+Creating config file /etc/ssh/sshd_config with new version
+Creating SSH2 RSA key; this may take some time ...
+2048 SHA256:KBpwnN5y0xMDwI46nl/Ts6vcMBEU2uCoSHbDKEJbKNg root@vishwaksena-Ubuntu (RSA)
+Creating SSH2 ECDSA key; this may take some time ...
+256 SHA256:iXaz8s85cqoIhhH9qRVvXTOmfGBD1YoqK51Y+778FzI root@vishwaksena-Ubuntu (ECDSA)
+Creating SSH2 ED25519 key; this may take some time ...
+256 SHA256:MZR8BoF+/tZ0tgth9FRIh+5ZOdRCsc0IgoEewBZVfQQ root@vishwaksena-Ubuntu (ED25519)
+Created symlink /etc/systemd/system/sshd.service → /lib/systemd/system/ssh.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ssh.service → /lib/systemd/system/ssh.service.
+Setting up ssh (1:7.6p1-4) ...
+Processing triggers for ureadahead (0.100.0-20) ...
+Processing triggers for systemd (237-3ubuntu10) ...
+Processing triggers for ufw (0.35-5) ...
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ sudo service ssh start
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ ipconfig
+
+Command 'ipconfig' not found, did you mean:
+
+  command 'iwconfig' from deb wireless-tools
+  command 'ifconfig' from deb net-tools
+  command 'iconfig' from deb ipmiutil
+
+Try: sudo apt install <deb name>
+
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ ifconfig
+
+Command 'ifconfig' not found, but can be installed with:
+
+sudo apt install net-tools
+
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ sudo apt install net-tools
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following NEW packages will be installed:
+  net-tools
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 194 kB of archives.
+After this operation, 803 kB of additional disk space will be used.
+Get:1 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 net-tools amd64 1.60+git20161116.90da8a0-1ubuntu1 [194 kB]
+Fetched 194 kB in 1s (282 kB/s)    
+Selecting previously unselected package net-tools.
+(Reading database ... 173643 files and directories currently installed.)
+Preparing to unpack .../net-tools_1.60+git20161116.90da8a0-1ubuntu1_amd64.deb ...
+Unpacking net-tools (1.60+git20161116.90da8a0-1ubuntu1) ...
+Processing triggers for man-db (2.8.3-2) ...
+Setting up net-tools (1.60+git20161116.90da8a0-1ubuntu1) ...
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ ifconfig
+enp19s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 78:2b:cb:d0:73:3b  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 4895  bytes 446951 (446.9 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4895  bytes 446951 (446.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp18s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.136  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::fc9d:2e56:84b0:54e2  prefixlen 64  scopeid 0x20<link>
+        inet6 2600:1700:6e1:2bd0::2c  prefixlen 128  scopeid 0x0<global>
+        inet6 2600:1700:6e1:2bd0:f245:c48a:a5d7:4e08  prefixlen 64  scopeid 0x0<global>
+        inet6 2600:1700:6e1:2bd0:2485:8129:f383:36d2  prefixlen 64  scopeid 0x0<global>
+        ether 68:a3:c4:29:15:f6  txqueuelen 1000  (Ethernet)
+        RX packets 256867  bytes 164183882 (164.1 MB)
+        RX errors 0  dropped 1  overruns 0  frame 290392
+        TX packets 94862  bytes 17273148 (17.2 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 17  
+
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ su sena
+Password: 
+$ w
+ 15:03:01 up  3:52,  3 users,  load average: 3.03, 2.49, 2.22
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+vishwaks :0       :0               11:11   ?xdm?   5:14m  0.02s /usr/li
+sena     pts/1    192.168.1.116    14:59    1:04   0.00s  0.00s -sh
+sena     pts/2    192.168.1.122    15:02    3.00s  0.00s  0.00s -sh
+$ w
+ 15:04:19 up  3:53,  4 users,  load average: 2.15, 2.32, 2.18
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+vishwaks :0       :0               11:11   ?xdm?   5:15m  0.02s /usr/li
+sena     pts/1    192.168.1.116    14:59    2:22   0.00s  0.00s -sh
+sena     pts/2    192.168.1.122    15:02    3.00s  0.00s  0.00s -sh
+sena     pts/3    192.168.1.116    15:04    6.00s  0.00s  0.00s -sh
+$ ls
+moduli		    ssh_host_ecdsa_key.pub    ssh_host_rsa_key.pub
+ssh_config	    ssh_host_ed25519_key      ssh_import_id
+sshd_config	    ssh_host_ed25519_key.pub
+ssh_host_ecdsa_key  ssh_host_rsa_key
+$ cd ~
+sh: 4: cd: can't cd to /home/sena
+$ su vishwaksena
+Password: 
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ cd \
+> 
+vishwaksena@vishwaksena-Ubuntu:~$ cd Documents/
+vishwaksena@vishwaksena-Ubuntu:~/Documents$ ls
+ antpract   git   lint.txt  'QuikPAY(R) Payment Receipt.pdf'
+vishwaksena@vishwaksena-Ubuntu:~/Documents$ vi lint.txt
+vishwaksena@vishwaksena-Ubuntu:~/Documents$ cd /home
+vishwaksena@vishwaksena-Ubuntu:/home$ ls
+vishwaksena
+vishwaksena@vishwaksena-Ubuntu:/home$ mkdir sena
+mkdir: cannot create directory ‘sena’: Permission denied
+vishwaksena@vishwaksena-Ubuntu:/home$ sudo mkdir sena
+[sudo] password for vishwaksena: 
+Sorry, try again.
+[sudo] password for vishwaksena: 
+vishwaksena@vishwaksena-Ubuntu:/home$ sudo useradd rao -d /home/rao
+vishwaksena@vishwaksena-Ubuntu:/home$ sudo passwd rao
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+vishwaksena@vishwaksena-Ubuntu:/home$ su rao
+Password: 
+su: Authentication failure
+vishwaksena@vishwaksena-Ubuntu:/home$ su rao
+Password: 
+$ ls
+sena  vishwaksena
+$ pwd
+/home
+$ ls -la
+total 16
+drwxr-xr-x  4 root        root        4096 Jun  4 15:17 .
+drwxr-xr-x 24 root        root        4096 Jun  2 10:12 ..
+drwxr-xr-x  2 root        root        4096 Jun  4 15:17 sena
+drwxr-xr-x 22 vishwaksena vishwaksena 4096 Jun  4 12:46 vishwaksena
+$ mkdir .ssh
+mkdir: cannot create directory ‘.ssh’: Permission denied
+$ apt get install ssh
+E: Invalid operation get
+$ apt ^C      
+$ ^C
+$ cd ~
+sh: 6: cd: can't cd to /home/rao
+$ chmod u+w
+chmod: missing operand after ‘u+w’
+Try 'chmod --help' for more information.
+$ chmod u+w ~
+chmod: cannot access '/home/rao': No such file or directory
+$ su vishwaksena
+Password: 
+vishwaksena@vishwaksena-Ubuntu:/home$ cd .ssh
+bash: cd: .ssh: No such file or directory
+vishwaksena@vishwaksena-Ubuntu:/home$ ls
+sena  vishwaksena
+vishwaksena@vishwaksena-Ubuntu:/home$ ls -la
+total 16
+drwxr-xr-x  4 root        root        4096 Jun  4 15:17 .
+drwxr-xr-x 24 root        root        4096 Jun  2 10:12 ..
+drwxr-xr-x  2 root        root        4096 Jun  4 15:17 sena
+drwxr-xr-x 22 vishwaksena vishwaksena 4096 Jun  4 12:46 vishwaksena
+vishwaksena@vishwaksena-Ubuntu:/home$ cd vishwaksena/
+vishwaksena@vishwaksena-Ubuntu:~$ ls -la
+total 120
+drwxr-xr-x 22 vishwaksena vishwaksena 4096 Jun  4 12:46 .
+drwxr-xr-x  4 root        root        4096 Jun  4 15:17 ..
+-rw-------  1 vishwaksena vishwaksena 2404 Jun  4 10:57 .bash_history
+-rw-r--r--  1 vishwaksena vishwaksena  220 Jun  1 15:24 .bash_logout
+-rw-r--r--  1 vishwaksena vishwaksena 3771 Jun  1 15:24 .bashrc
+drwx------ 18 vishwaksena vishwaksena 4096 Jun  4 15:26 .cache
+drwx------ 16 vishwaksena vishwaksena 4096 Jun  4 11:22 .config
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Desktop
+drwxr-xr-x  4 vishwaksena vishwaksena 4096 Jun  4 15:17 Documents
+drwxr-xr-x  4 vishwaksena vishwaksena 4096 Jun  2 15:07 Downloads
+-rw-r--r--  1 vishwaksena vishwaksena 8980 Jun  1 15:24 examples.desktop
+drwx------  3 vishwaksena vishwaksena 4096 Jun  2 14:44 .gnome
+drwx------  3 vishwaksena vishwaksena 4096 Jun  1 16:17 .gnupg
+-rw-------  1 vishwaksena vishwaksena 1476 Jun  4 11:11 .ICEauthority
+drwx------  3 vishwaksena vishwaksena 4096 Jun  1 15:52 .local
+drwx------  5 vishwaksena vishwaksena 4096 Jun  1 16:04 .mozilla
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Music
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Pictures
+drwx------  3 vishwaksena vishwaksena 4096 Jun  2 14:44 .pki
+-rw-r--r--  1 vishwaksena vishwaksena  807 Jun  1 15:24 .profile
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Public
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  3 16:22 .rpmdb
+drwxr-xr-x  3 vishwaksena vishwaksena 4096 Jun  4 12:46 snap
+drwx------  2 vishwaksena vishwaksena 4096 Jun  4 15:26 .ssh
+-rw-r--r--  1 vishwaksena vishwaksena    0 Jun  1 16:21 .sudo_as_admin_successful
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Templates
+drwx------  4 vishwaksena vishwaksena 4096 Jun  3 12:12 .thunderbird
+drwxr-xr-x  2 vishwaksena vishwaksena 4096 Jun  1 16:01 Videos
+drwxrwxr-x  5 vishwaksena vishwaksena 4096 Jun  2 15:49 .zoom
+vishwaksena@vishwaksena-Ubuntu:~$ cd .ssh
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ ls
+authorized_keys  id_rsa  id_rsa.pub
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ cat authorized_keys 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8Ho7J3KM67payNFrv3CyP2Ty0RMUbA1gZ1zkpqVl3xqKI6DW76I5Frc7lyKXT86J5rmGQARuLLDyOii0p7gcM51KP4tmCp4qrv5svJwkthB2Xe27YlhykFfgayDWZ8KeIM3aH3kImZ2b3XjiHBgbfJnrJZFQNBOYowHf7kb/cSkedJzxLf8MXARTvsHAxvfuce0rwnEZo8ZSzhZ7dpRsi+kP5EpIdeUqe72RKPiBEGyENH4WYMCEVtLjVl0NoAZPQM+vyy0wllfalVsD3oRsRiUbJ0lAjAfiGA54brg2kfKyhny1qfeS8keU307gy+65Z2oyJeNet1T5YN6kDOV8t srikanth@localhost.localdomain
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ cd ~
+vishwaksena@vishwaksena-Ubuntu:~$ sudo chmod
+chmod: missing operand
+Try 'chmod --help' for more information.
+vishwaksena@vishwaksena-Ubuntu:~$ chmod --help
+Usage: chmod [OPTION]... MODE[,MODE]... FILE...
+  or:  chmod [OPTION]... OCTAL-MODE FILE...
+  or:  chmod [OPTION]... --reference=RFILE FILE...
+Change the mode of each FILE to MODE.
+With --reference, change the mode of each FILE to that of RFILE.
+
+  -c, --changes          like verbose but report only when a change is made
+  -f, --silent, --quiet  suppress most error messages
+  -v, --verbose          output a diagnostic for every file processed
+      --no-preserve-root  do not treat '/' specially (the default)
+      --preserve-root    fail to operate recursively on '/'
+      --reference=RFILE  use RFILE's mode instead of MODE values
+  -R, --recursive        change files and directories recursively
+      --help     display this help and exit
+      --version  output version information and exit
+
+Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'.
+
+GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
+Full documentation at: <http://www.gnu.org/software/coreutils/chmod>
+or available locally via: info '(coreutils) chmod invocation'
+vishwaksena@vishwaksena-Ubuntu:~$ ls
+Desktop    Downloads         Music     Public  snap       Videos
+Documents  examples.desktop  Pictures  sample  Templates
+vishwaksena@vishwaksena-Ubuntu:~$ vi sample
+vishwaksena@vishwaksena-Ubuntu:~$ ls
+Desktop    Downloads  examples.desktop  Pictures  sample  Templates
+Documents  eg.txt     Music             Public    snap    Videos
+vishwaksena@vishwaksena-Ubuntu:~$ su sena
+Password: 
+$ cd ~
+$ ls
+$ pwd
+/home/sena
+$ ls
+$ ls -la
+total 8
+drwxr-xr-x 2 root root 4096 Jun  4 15:17 .
+drwxr-xr-x 4 root root 4096 Jun  4 15:17 ..
+$ logout    
+sh: 6: logout: not found
+$ su vishwaksena
+Password: 
+vishwaksena@vishwaksena-Ubuntu:/home/sena$ ls
+vishwaksena@vishwaksena-Ubuntu:/home/sena$ cd ..
+vishwaksena@vishwaksena-Ubuntu:/home$ cd vishwaksena/
+vishwaksena@vishwaksena-Ubuntu:~$ ls
+2eg        Downloads         Music     sample     Videos
+Desktop    eg.txt            Pictures  snap
+Documents  examples.desktop  Public    Templates
+vishwaksena@vishwaksena-Ubuntu:~$ cd /etc/ssh
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ vi sshd_config 
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ sudo vi sshd_config 
+[sudo] password for vishwaksena: 
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ vim
+
+Command 'vim' not found, but can be installed with:
+
+sudo apt install vim       
+sudo apt install vim-gtk3  
+sudo apt install vim-tiny  
+sudo apt install neovim    
+sudo apt install vim-athena
+sudo apt install vim-gtk   
+sudo apt install vim-nox   
+
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ sudo apt install vim
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  vim-runtime
+Suggested packages:
+  ctags vim-doc vim-scripts
+The following NEW packages will be installed:
+  vim vim-runtime
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 6,589 kB of archives.
+After this operation, 32.0 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 vim-runtime all 2:8.0.1453-1ubuntu1 [5,437 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 vim amd64 2:8.0.1453-1ubuntu1 [1,152 kB]
+Fetched 6,589 kB in 4s (1,833 kB/s)
+Selecting previously unselected package vim-runtime.
+(Reading database ... 173691 files and directories currently installed.)
+Preparing to unpack .../vim-runtime_2%3a8.0.1453-1ubuntu1_all.deb ...
+Adding 'diversion of /usr/share/vim/vim80/doc/help.txt to /usr/share/vim/vim80/doc/help.txt.vim-tiny by vim-runtime'
+Adding 'diversion of /usr/share/vim/vim80/doc/tags to /usr/share/vim/vim80/doc/tags.vim-tiny by vim-runtime'
+Unpacking vim-runtime (2:8.0.1453-1ubuntu1) ...
+Selecting previously unselected package vim.
+Preparing to unpack .../vim_2%3a8.0.1453-1ubuntu1_amd64.deb ...
+Unpacking vim (2:8.0.1453-1ubuntu1) ...
+Processing triggers for man-db (2.8.3-2) ...
+Setting up vim-runtime (2:8.0.1453-1ubuntu1) ...
+Setting up vim (2:8.0.1453-1ubuntu1) ...
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vim (vim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vimdiff (vimdiff) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rvim (rvim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rview (rview) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vi (vi) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/view (view) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/ex (ex) in auto mode
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ cd \
+> 
+vishwaksena@vishwaksena-Ubuntu:~$ ssh sena@locahost
+ssh: Could not resolve hostname locahost: Name or service not known
+vishwaksena@vishwaksena-Ubuntu:~$ ssh sena
+ssh: Could not resolve hostname sena: Name or service not known
+vishwaksena@vishwaksena-Ubuntu:~$ ssh rao@localhost
+The authenticity of host 'localhost (127.0.0.1)' can't be established.
+ECDSA key fingerprint is SHA256:iXaz8s85cqoIhhH9qRVvXTOmfGBD1YoqK51Y+778FzI.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'localhost' (ECDSA) to the list of known hosts.
+rao@localhost's password: 
+Welcome to Ubuntu 18.04 LTS (GNU/Linux 4.15.0-22-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+0 packages can be updated.
+0 updates are security updates.
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+Could not chdir to home directory /home/rao: No such file or directory
+$ 
+$ pwd
+/
+$ /home
+-sh: 3: /home: Permission denied
+$ cd ..
+$ ls
+bin    etc	       lib	   mnt	 run   swapfile  var
+boot   home	       lib64	   opt	 sbin  sys	 vmlinuz
+cdrom  initrd.img      lost+found  proc  snap  tmp	 vmlinuz.old
+dev    initrd.img.old  media	   root  srv   usr
+$ cd ..
+$ ls
+bin    etc	       lib	   mnt	 run   swapfile  var
+boot   home	       lib64	   opt	 sbin  sys	 vmlinuz
+cdrom  initrd.img      lost+found  proc  snap  tmp	 vmlinuz.old
+dev    initrd.img.old  media	   root  srv   usr
+$ pwd
+/
+$ cd usr
+$ ls
+bin  games  include  lib  local  sbin  share  src
+$ cd share
+$ ls
+aclocal			     intltool-debian
+acpi-support		     iptables
+adduser			     iso-codes
+adium			     java
+aisleriot		     kde4
+alsa			     keyrings
+alsa-base		     language-selector
+ant			     language-support
+apache2			     language-tools
+appdata			     libaudio2
+app-info		     libc-bin
+app-install		     libdrm
+application-registry	     libexttextcat
+applications		     libgnomekbd
+apport			     libgphoto2
+apps			     libgweather
+apturl			     liblangtag
+aspell			     liblouis
+avahi			     liblouisutdml
+backgrounds		     libparse-debianchangelog-perl
+base-files		     libreoffice
+base-passwd		     librevenge
+bash-completion		     libsensors4
+binfmts			     libthai
+branding		     libwacom
+brltty			     lightdm
+bug			     lintian
+build-essential		     linux-sound-base
+ca-certificates		     locale
+ca-certificates-java	     locale-langpack
+calendar		     locales
+cmake			     m2300w
+cogl			     man
+color			     man-db
+colord			     maven-repo
+command-not-found	     media-player-info
+common-licenses		     menu
+consolefonts		     metainfo
+console-setup		     mime
+consoletrans		     mime-info
+cups			     mimelnk
+dbus-1			     misc
+dconf			     mobile-broadband-provider-info
+debconf			     mousetweaks
+debhelper		     mozilla
+debianutils		     mythes
+defaults		     nano
+desktop-directories	     nautilus-share
+dict			     netpbm
+dictionaries-common	     netplan
+distro-info		     openssh
+djvu			     orca
+dns			     os-prober
+dnsmasq-base		     p11-kit
+doc			     package-data-downloads
+doc-base		     PackageKit
+dpkg			     pam
+emacs			     pam-configs
+enchant			     perl
+eog			     perl5
+evince			     perl-openssl-defaults
+evolution-data-server	     pixmaps
+example-content		     pkgconfig
+file			     plymouth
+file-roller		     pnm2ppa
+fontconfig		     polkit-1
+fonts			     poppler
+fonts-droid-fallback	     popularity-contest
+fonts-sil-padauk	     ppd
+foo2qpdl		     ppp
+foo2zjs			     publicsuffix
+fwupd			     pulseaudio
+gcc-8			     pyshared
+GConf			     python
+gdb			     python3
+gdm			     python-apt
+gedit			     python-urlgrabber
+GeoIP			     readline
+gettext			     remmina
+gettext-0.19.8		     rhythmbox
+ghostscript		     rsyslog
+git-core		     seahorse
+gitweb			     secureboot
+glib-2.0		     sensible-utils
+glvnd			     session-migration
+gnome			     simple-scan
+gnome-background-properties  snmp
+gnome-bluetooth		     software-properties
+gnome-control-center	     sounds
+gnome-mahjongg		     speech-dispatcher
+gnome-mines		     ssl-cert
+gnome-session		     system-config-printer
+gnome-settings-daemon	     systemd
+gnome-shell		     tabset
+gnome-software		     terminfo
+gnome-sudoku		     themes
+gnome-todo		     thumbnailers
+gnome-video-effects	     totem
+gnupg			     transmission
+goa-1.0			     ubuntu
+grilo-plugins		     ubuntu-advantage-tools
+groff			     ubuntu-drivers-common
+grub			     ubuntu-release-upgrader
+grub-gfxpayload-lists	     ubuntu-wayland
+gst-plugins-base	     ubuntu-web-launchers
+gstreamer-1.0		     ufw
+gtk-doc			     unattended-upgrades
+gtk-engines		     unity
+gtksourceview-3.0	     update-manager
+guile			     update-notifier
+gutenprint		     upstart
+gvfs			     usb-creator
+hal			     usb_modeswitch
+help			     vim
+help-langpack		     wayland-sessions
+hplip			     X11
+hunspell		     xdg-desktop-portal
+hyphen			     xml
+i18n			     xsessions
+ibus			     yelp
+ibus-table		     yelp-xsl
+icons			     yum-cli
+ImageMagick-6		     zeitgeist
+im-config		     zenity
+indicators		     zoneinfo
+info			     zsh
+initramfs-tools
+$ cd ..
+$ logout 
+-sh: 14: logout: not found
+$ exit
+Connection to localhost closed.
+vishwaksena@vishwaksena-Ubuntu:~$ ssh roy@172.31.26.238
+
+
+
+
+exit
+^Z
+[1]+  Stopped                 ssh roy@172.31.26.238
+vishwaksena@vishwaksena-Ubuntu:~$ ssh roy@192.168.
+The authenticity of host '192.168. (104.239.207.44)' can't be established.
+ECDSA key fingerprint is SHA256:Qcg8zcFGJAUwtnb1c/oATrVTIdRoFK/neQF7fmK/mag.
+Are you sure you want to continue connecting (yes/no)? no
+Host key verification failed.
+vishwaksena@vishwaksena-Ubuntu:~$ ssh roy@192.168.1.122
+ssh: connect to host 192.168.1.122 port 22: Connection refused
+vishwaksena@vishwaksena-Ubuntu:~$ ssh roy@192.168.1.122
+The authenticity of host '192.168.1.122 (192.168.1.122)' can't be established.
+ECDSA key fingerprint is SHA256:78aqDNpdxCMzvnNuwJqdrdqKsFoqG2gAKygKXpC6r6A.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.1.122' (ECDSA) to the list of known hosts.
+Password:
+Last login: Mon Jun  4 16:13:46 2018
+Roys-Air:~ roy$ ls
+Applications	Library		Public		rroy.txt
+Desktop		Movies		VirtualBox VMs	shi
+Documents	Music		google.html	shiv
+Downloads	Pictures	roy
+Roys-Air:~ roy$ vi shiv
+Roys-Air:~ roy$ vi rroy.txt
+Roys-Air:~ roy$ ls
+Applications	Library		Public		rroy.txt
+Desktop		Movies		VirtualBox VMs	shi
+Documents	Music		google.html	shiv
+Downloads	Pictures	roy
+Roys-Air:~ roy$ cd Desktop/
+Roys-Air:Desktop roy$ touch endo.txt
+Roys-Air:Desktop roy$ touch end8o.txt
+Roys-Air:Desktop roy$ vi endo.txt
+Roys-Air:Desktop roy$ vi endo.txt
+Roys-Air:Desktop roy$ ssh-copy-id roy@192.168.1.122
+/usr/bin/ssh-copy-id: ERROR: No identities found
+Roys-Air:Desktop roy$ ssh-copy-id
+Usage: /usr/bin/ssh-copy-id [-h|-?|-f|-n] [-i [identity_file]] [-p port] [[-o <ssh -o options>] ...] [user@]hostname
+	-f: force mode -- copy keys without trying to check if they are already installed
+	-n: dry run    -- no keys are actually copied
+	-h|-?: print this help
+Roys-Air:Desktop roy$ ssh-copy-id roy@192.168.1.122
+/usr/bin/ssh-copy-id: ERROR: No identities found
+Roys-Air:Desktop roy$ logout
+Connection to 192.168.1.122 closed.
+vishwaksena@vishwaksena-Ubuntu:~$ cd ssh
+bash: cd: ssh: No such file or directory
+vishwaksena@vishwaksena-Ubuntu:~$ cd ~
+vishwaksena@vishwaksena-Ubuntu:~$ cd .ssh
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ ssh-copy-id roy@192.168.1.122
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/vishwaksena/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+Password:
+
+Number of key(s) added: 1
+
+Now try logging into the machine, with:   "ssh 'roy@192.168.1.122'"
+and check to make sure that only the key(s) you wanted were added.
+
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ ssh roy@192.168.1.122
+Last login: Mon Jun  4 16:18:50 2018 from 192.168.1.136
+Roys-Air:~ roy$ logout
+Connection to 192.168.1.122 closed.
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ ls
+authorized_keys  id_rsa  id_rsa.pub  known_hosts
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ rm authorized_keys
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ ls
+id_rsa  id_rsa.pub  known_hosts
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ cd sshd_config
+bash: cd: sshd_config: No such file or directory
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ cat sshd_config
+cat: sshd_config: No such file or directory
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ vi sshd_config
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ ls -la
+total 20
+drwx------  2 vishwaksena vishwaksena 4096 Jun  4 16:41 .
+drwxr-xr-x 22 vishwaksena vishwaksena 4096 Jun  4 16:41 ..
+-rw-------  1 vishwaksena vishwaksena 1679 Jun  4 13:49 id_rsa
+-rw-r--r--  1 vishwaksena vishwaksena  412 Jun  4 13:49 id_rsa.pub
+-rw-r--r--  1 vishwaksena vishwaksena  444 Jun  4 16:18 known_hosts
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ cd /etc/ssh/sshd_config
+bash: cd: /etc/ssh/sshd_config: Not a directory
+vishwaksena@vishwaksena-Ubuntu:~/.ssh$ cd /etc/ssh
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ vi sshd_config
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ sudo vi sshd_config
+[sudo] password for vishwaksena: 
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ service sshd restart
+==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ===
+Authentication is required to restart 'ssh.service'.
+Authenticating as: Vishwaksena,,, (vishwaksena)
+Password: 
+==== AUTHENTICATION COMPLETE ===
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ sudo vi sshd_config
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ ssh roy@192.168.1.122
+Last login: Mon Jun  4 16:39:47 2018 from 192.168.1.116
+Roys-Air:~ roy$ ls
+Applications	Library		Public		rroy.txt
+Desktop		Movies		VirtualBox VMs	shi
+Documents	Music		google.html	shiv
+Downloads	Pictures	roy
+Roys-Air:~ roy$ cd Desktop/
+Roys-Air:Desktop roy$ touch emsangatulu.txt
+Roys-Air:Desktop roy$ vi emsangatulu.txt 
+Roys-Air:Desktop roy$ logout
+Connection to 192.168.1.122 closed.
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ ssh roy@192.168.1.122
+Last login: Mon Jun  4 17:06:21 2018 from 192.168.1.136
+Roys-Air:~ roy$ tasklist/?
+-bash: tasklist/?: No such file or directory
+Roys-Air:~ roy$ osascript -e 'quit app "Chrome"'
+Roys-Air:~ roy$ logout
+Connection to 192.168.1.122 closed.
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ ssh srikanth@192.168.1.116
+
+
+
+
+
+^Z
+[2]+  Stopped                 ssh srikanth@192.168.1.116
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ ssh srikanth@192.168.1.116
+^Z
+[3]+  Stopped                 ssh srikanth@192.168.1.116
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ ssh roy@192.168.1.122
+Last login: Mon Jun  4 17:10:00 2018 from 192.168.1.136
+Roys-Air:~ roy$ ps -ax
+  PID TTY           TIME CMD
+    1 ??         2:08.82 /sbin/launchd
+   39 ??         0:09.15 /usr/sbin/syslogd
+   40 ??         0:09.21 /usr/libexec/UserEventAgent (System)
+   42 ??         0:00.13 /Library/PrivilegedHelperTools/PT.updd
+   44 ??         0:11.48 /usr/libexec/kextd
+   45 ??         0:02.51 /System/Library/PrivateFrameworks/Uninstall.
+   46 ??         0:19.13 /System/Library/Frameworks/CoreServices.fram
+   48 ??         0:00.66 /System/Library/PrivateFrameworks/MediaRemot
+   50 ??         0:00.71 /System/Library/CoreServices/appleeventsd --
+   51 ??         0:11.43 /usr/sbin/systemstats --daemon
+   53 ??         0:06.26 /usr/libexec/configd
+   54 ??         0:24.97 /System/Library/CoreServices/powerd.bundle/p
+   57 ??         1:08.07 /usr/libexec/logd
+   58 ??         0:00.03 /usr/libexec/keybagd -t 15
+   64 ??         0:01.84 /usr/libexec/warmd
+   65 ??         0:53.40 /System/Library/Frameworks/CoreServices.fram
+   66 ??         0:00.17 /System/Library/CoreServices/iconservicesd
+   67 ??         0:00.05 /System/Library/CoreServices/iconservicesage
+   68 ??         0:00.93 /usr/libexec/diskarbitrationd
+   71 ??         0:00.74 /System/Library/CoreServices/backupd.bundle/
+   72 ??         0:16.41 /usr/libexec/coreduetd
+   75 ??         2:15.47 /usr/libexec/opendirectoryd
+   76 ??         0:04.60 /System/Library/PrivateFrameworks/ApplePushS
+   77 ??         0:00.11 /System/Library/PrivateFrameworks/Noticeboar
+   78 ??         0:08.66 /System/Library/CoreServices/launchservicesd
+   79 ??         0:00.90 /usr/libexec/timed
+   80 ??         0:09.90 /usr/sbin/securityd -i
+   81 ??         0:00.13 /System/Library/PrivateFrameworks/MobileDevi
+   83 ??         0:44.06 /usr/libexec/locationd
+   84 ??         0:00.02 autofsd
+   85 ??         0:00.29 /usr/libexec/displaypolicyd -k 1
+   87 ??         0:08.86 /usr/libexec/dasd
+   88 ??         0:00.23 /System/Library/PrivateFrameworks/Heimdal.fr
+   91 ??         0:13.66 /System/Library/CoreServices/loginwindow.app
+   92 ??         0:00.13 /System/Library/CoreServices/logind
+   93 ??         0:00.24 /System/Library/PrivateFrameworks/Generation
+   94 ??         0:00.02 /usr/sbin/KernelEventAgent
+   96 ??         0:04.03 /usr/sbin/bluetoothd
+   97 ??         5:45.03 /usr/libexec/hidd
+   98 ??         0:37.66 /usr/libexec/corebrightnessd --launchd
+   99 ??         0:00.77 /usr/libexec/AirPlayXPCHelper
+  100 ??         0:00.09 /usr/libexec/taskgated -s
+  101 ??         2:32.89 /usr/sbin/notifyd
+  102 ??         0:01.87 /usr/sbin/distnoted daemon
+  103 ??         0:49.34 /usr/sbin/cfprefsd daemon
+  107 ??         0:01.72 /System/Library/Frameworks/Security.framewor
+  108 ??         0:04.06 /System/Library/CoreServices/coreservicesd
+  119 ??         0:00.11 aslmanager
+  120 ??         0:00.24 /usr/libexec/nehelper
+  124 ??         0:00.03 /System/Library/Frameworks/PCSC.framework/Ve
+  127 ??         0:10.88 /usr/libexec/trustd
+  129 ??         0:00.04 /System/Library/Frameworks/CryptoTokenKit.fr
+  130 ??         0:59.94 /usr/libexec/airportd
+  131 ??         2:00.00 /usr/sbin/coreaudiod
+  132 ??         0:00.38 /System/Library/Frameworks/CoreAudio.framewo
+  162 ??         0:03.06 /System/Library/PrivateFrameworks/WirelessDi
+  163 ??         0:01.02 /System/Library/PrivateFrameworks/CoreAnalyt
+  164 ??         0:20.08 /usr/sbin/mDNSResponder
+  166 ??         0:03.44 /usr/sbin/mDNSResponderHelper
+  167 ??        44:01.45 /System/Library/PrivateFrameworks/SkyLight.f
+  176 ??         0:03.93 /usr/libexec/nsurlsessiond --privileged
+  178 ??         0:00.06 /usr/libexec/apfsd
+  179 ??         0:00.45 /usr/libexec/usbd
+  180 ??         0:01.48 /usr/libexec/powerlogd
+  182 ??         0:00.06 /System/Library/CryptoTokenKit/com.apple.ifd
+  186 ??         0:01.47 /System/Library/PrivateFrameworks/SignpostNo
+  188 ??         0:00.23 /usr/libexec/secinitd
+  189 ??         0:04.52 /usr/libexec/sysmond
+  210 ??         0:00.71 /usr/sbin/systemstats --logger-helper /priva
+  212 ??         0:02.15 /usr/libexec/mobileassetd
+  213 ??         0:00.63 /usr/libexec/lsd runAsRoot
+  216 ??         0:00.04 /System/Library/Frameworks/CoreMediaIO.frame
+  217 ??         0:00.43 /Library/CoreMediaIO/Plug-Ins/DAL/AppleCamer
+  218 ??         0:04.34 /usr/libexec/syspolicyd
+  219 ??         0:02.57 /usr/libexec/amfid
+  220 ??         0:11.18 /usr/libexec/symptomsd
+  221 ??         0:00.77 /usr/libexec/watchdogd
+  222 ??         0:00.94 /usr/libexec/sandboxd
+  224 ??         0:00.12 /System/Library/PrivateFrameworks/CoreSymbol
+  225 ??         1:36.16 /System/Library/Frameworks/CoreServices.fram
+  226 ??         0:00.11 /usr/libexec/nsurlstoraged --privileged
+  228 ??         0:00.36 /usr/libexec/captiveagent
+  231 ??         0:02.44 /System/Library/PrivateFrameworks/GeoService
+  232 ??         0:00.41 /usr/libexec/secinitd
+  233 ??         0:00.11 /usr/sbin/cfprefsd agent
+  234 ??         0:00.33 /usr/libexec/trustd --agent
+  236 ??         0:00.08 /usr/libexec/thermald
+  238 ??         0:00.11 /System/Library/Frameworks/AudioToolbox.fram
+  239 ??         0:00.03 /System/Library/Frameworks/AudioToolbox.fram
+  240 ??         0:00.05 /System/Library/Frameworks/OpenGL.framework/
+  241 ??         0:00.07 /usr/libexec/colorsync.displayservices
+  247 ??         0:00.03 /usr/libexec/colorsyncd
+  248 ??         0:00.41 /System/Library/Frameworks/Security.framewor
+  249 ??         0:00.22 /usr/libexec/findmydeviced
+  252 ??         0:00.04 /usr/libexec/bootinstalld
+  256 ??         0:02.07 /System/Library/PrivateFrameworks/Performanc
+  257 ??         0:00.08 /System/Library/Frameworks/CryptoTokenKit.fr
+  262 ??         0:00.14 /usr/libexec/diskmanagementd
+  263 ??         0:00.21 /System/Library/CoreServices/sharedfilelistd
+  265 ??         0:01.32 /usr/sbin/systemsoundserverd
+  266 ??         0:00.08 /System/Library/PrivateFrameworks/TCC.framew
+  267 ??         0:00.08 /System/Library/PrivateFrameworks/AccountPol
+  277 ??         0:00.17 /System/Library/Frameworks/LocalAuthenticati
+  288 ??         0:00.81 /System/Library/Frameworks/GSS.framework/Hel
+  290 ??         0:00.16 /usr/libexec/securityd_service
+  291 ??         0:25.56 /System/Library/PrivateFrameworks/AmbientDis
+  292 ??         0:05.67 /usr/sbin/cfprefsd agent
+  293 ??         0:06.68 /usr/libexec/UserEventAgent (Aqua)
+  295 ??         0:08.31 /usr/sbin/distnoted agent
+  297 ??         0:13.56 /System/Library/Frameworks/CoreTelephony.fra
+  298 ??         0:01.43 /usr/libexec/lsd
+  299 ??         0:23.43 /usr/libexec/trustd --agent
+  301 ??         0:00.86 /System/Library/CoreServices/sharedfilelistd
+  305 ??         0:00.97 /usr/libexec/secd
+  306 ??         0:06.26 /System/Library/PrivateFrameworks/CloudKitDa
+  307 ??         0:00.13 /System/Library/Frameworks/Security.framewor
+  308 ??         0:01.36 /System/Library/PrivateFrameworks/TelephonyU
+  309 ??         0:00.90 /usr/sbin/WirelessRadioManagerd
+  311 ??         0:04.03 /System/Library/Frameworks/Accounts.framewor
+  312 ??         0:03.95 /System/Library/PrivateFrameworks/IDS.framew
+  313 ??         0:03.17 /System/Library/PrivateFrameworks/IMCore.fra
+  314 ??         0:01.38 /System/Library/PrivateFrameworks/TCC.framew
+  315 ??         0:01.94 /System/Library/PrivateFrameworks/IMDPersist
+  316 ??         0:00.19 /usr/libexec/rapportd
+  317 ??         0:00.41 /System/Library/Frameworks/AddressBook.frame
+  318 ??         0:03.73 /usr/libexec/secinitd
+  319 ??         0:11.21 /usr/libexec/routined LAUNCHED_BY_LAUNCHD
+  320 ??         0:01.41 /usr/sbin/usernoted
+  321 ??         0:03.17 /usr/libexec/nsurlsessiond
+  322 ??         0:00.16 /usr/libexec/networkserviceproxy
+  323 ??         0:07.52 /System/Library/CoreServices/NotificationCen
+  324 ??         0:17.82 /System/Library/PrivateFrameworks/CalendarAg
+  325 ??         0:00.04 /System/Library/CoreServices/CrashReporterSu
+  326 ??         0:00.94 /usr/libexec/pboard
+  327 ??         0:02.38 /System/Library/CoreServices/WiFiAgent.app/C
+  328 ??         0:02.68 /System/Library/PrivateFrameworks/AuthKit.fr
+  329 ??         0:00.04 /System/Library/CoreServices/APFSUserAgent
+  330 ??         0:02.75 /usr/libexec/nsurlstoraged
+  331 ??         0:03.48 /System/Library/PrivateFrameworks/GeoService
+  332 ??         0:02.42 /System/Library/CoreServices/talagent
+  333 ??         0:09.66 /System/Library/Frameworks/ApplicationServic
+  334 ??         0:03.19 /System/Library/PrivateFrameworks/CalendarNo
+  336 ??         0:00.74 /usr/sbin/wirelessproxd
+  337 ??         0:06.51 /usr/libexec/sharingd
+  338 ??         0:00.56 /usr/sbin/spindump
+  339 ??         0:00.05 /usr/libexec/spindump_agent
+  340 ??         0:11.70 /System/Library/CoreServices/SubmitDiagInfo 
+  341 ??         0:25.28 /System/Library/CoreServices/Dock.app/Conten
+  342 ??         0:25.40 /System/Library/CoreServices/SystemUIServer.
+  343 ??         1:47.41 /System/Library/CoreServices/Finder.app/Cont
+  344 ??         0:01.56 /System/Library/Frameworks/InputMethodKit.fr
+  346 ??         0:11.83 /System/Library/CoreServices/Spotlight.app/C
+  348 ??         0:00.31 /System/Library/PrivateFrameworks/IMFoundati
+  350 ??         0:02.48 /System/Library/PrivateFrameworks/ContactsAg
+  351 ??         0:02.76 /usr/libexec/pkd
+  352 ??         0:01.58 /System/Library/PrivateFrameworks/MessagesKi
+  353 ??         0:03.59 /System/Library/PrivateFrameworks/UserActivi
+  354 ??         0:00.29 /usr/libexec/fmfd
+  355 ??         0:00.20 /System/Library/PrivateFrameworks/CommerceKi
+  358 ??         0:01.05 /System/Library/PrivateFrameworks/CoreWLANKi
+  360 ??         0:00.67 /System/Library/CoreServices/iconservicesage
+  363 ??         0:00.28 /System/Library/PrivateFrameworks/IMFoundati
+  364 ??         0:00.06 /System/Library/PrivateFrameworks/CoreCDP.fr
+  365 ??         0:00.30 /usr/sbin/filecoordinationd
+  366 ??         0:03.14 /System/Library/CoreServices/Dock.app/Conten
+  368 ??         0:00.58 /System/Library/PrivateFrameworks/CloudDocsD
+  376 ??         0:00.12 /System/Library/PrivateFrameworks/MediaRemot
+  378 ??         0:03.44 /System/Library/PrivateFrameworks/CoreParsec
+  380 ??         0:04.44 /System/Library/PrivateFrameworks/CommerceKi
+  384 ??         0:03.53 /System/Library/CoreServices/cloudphotosd.ap
+  386 ??         0:04.29 /System/Library/PrivateFrameworks/CoreSugges
+  388 ??         0:03.42 /System/Library/Input Methods/PressAndHold.a
+  390 ??         0:00.05 /System/Library/CoreServices/NotificationCen
+  391 ??         0:00.50 /System/Library/PrivateFrameworks/CallHistor
+  394 ??         0:00.18 /System/Library/PrivateFrameworks/CoreADI.fr
+  405 ??         0:00.08 /System/Library/Frameworks/LocalAuthenticati
+  423 ??         0:00.24 /System/Library/CoreServices/pbs
+  424 ??         0:00.02 SafeEjectGPUAgent
+  425 ??         0:00.08 /System/Library/CoreServices/Menu Extras/Saf
+  427 ??         0:00.17 /usr/libexec/videosubscriptionsd
+  430 ??         0:00.42 /System/Library/PrivateFrameworks/CacheDelet
+  431 ??         0:02.41 /System/Library/CoreServices/CoreLocationAge
+  433 ??         0:04.98 /System/Library/PrivateFrameworks/AssistantS
+  435 ??         0:00.28 /System/Library/PrivateFrameworks/FileProvid
+  437 ??         0:02.23 /usr/sbin/ckkeyrolld
+  439 ??         0:00.17 /System/Library/CoreServices/SocialPushAgent
+  442 ??         0:00.18 /usr/libexec/dmd
+  443 ??         0:05.74 /System/Library/CoreServices/Siri.app/Conten
+  444 ??         0:00.46 /System/Library/Image Capture/Support/icdd
+  446 ??         0:02.51 /System/Library/CoreServices/AirPlayUIAgent.
+  447 ??         0:01.06 /usr/libexec/knowledge-agent
+  448 ??         0:00.45 /System/Library/CoreServices/cloudpaird
+  449 ??         0:03.33 /System/Library/PrivateFrameworks/Noticeboar
+  450 ??         0:01.13 /System/Library/CoreServices/diagnostics_age
+  452 ??         0:00.22 /System/Library/CoreServices/backgroundtaskm
+  453 ??         0:00.09 /System/Library/Frameworks/CryptoTokenKit.fr
+  454 ??         0:00.07 /System/Library/Frameworks/CryptoTokenKit.fr
+  456 ??         0:01.47 /Applications/iTunes.app/Contents/MacOS/iTun
+  467 ??         0:01.00 /System/Library/PrivateFrameworks/PrintingPr
+  477 ??         0:16.70 /System/Library/CoreServices/SafariSupport.b
+  478 ??         0:00.09 /System/Library/PrivateFrameworks/CoreFollow
+  479 ??         0:00.26 /System/Library/PrivateFrameworks/CloudPhoto
+  482 ??         0:00.13 /usr/libexec/dmd
+  485 ??         0:00.29 /System/Library/PrivateFrameworks/AssistantS
+  486 ??         0:00.30 /System/Library/PrivateFrameworks/PhotoLibra
+  487 ??         0:00.06 /usr/libexec/USBAgent
+  488 ??         0:00.26 /Library/Frameworks/iTunesLibrary.framework/
+  489 ??         0:00.21 /System/Library/Frameworks/AudioToolbox.fram
+  490 ??         0:02.96 /System/Library/PrivateFrameworks/PassKitCor
+  492 ??         0:00.48 /System/Library/PrivateFrameworks/ContactsDo
+  493 ??         0:00.08 /usr/libexec/nfcd
+  494 ??         0:00.09 /System/Library/CoreServices/Software Update
+  495 ??         0:16.28 /System/Library/CoreServices/Software Update
+  496 ??         0:00.08 /System/Library/CoreServices/Software Update
+  498 ??         0:00.11 /System/Library/PrivateFrameworks/CommerceKi
+  506 ??         0:02.94 /System/Library/PrivateFrameworks/CommerceKi
+  515 ??         0:02.81 /System/Library/PrivateFrameworks/CommerceKi
+  523 ??         0:00.75 /usr/libexec/trustd --agent
+  578 ??         0:00.17 /usr/sbin/distnoted agent
+  610 ??         0:05.10 /System/Library/CoreServices/Siri.app/Conten
+  706 ??         0:03.18 /System/Library/PrivateFrameworks/CommerceKi
+  708 ??         0:00.13 /System/Library/PrivateFrameworks/CommerceKi
+  709 ??         0:00.48 /System/Library/Frameworks/ApplicationServic
+  710 ??         0:00.44 /System/Library/CoreServices/ScopedBookmarkA
+  762 ??         0:03.55 /System/Library/CoreServices/OSDUIHelper.app
+  823 ??         0:00.03 /System/Library/Frameworks/AudioToolbox.fram
+ 1331 ??         0:00.21 /System/Library/Frameworks/CoreServices.fram
+ 1792 ??         0:06.39 /System/Library/Services/AppleSpell.service/
+ 1793 ??         0:01.20 /usr/libexec/keyboardservicesd
+ 4412 ??         0:14.66 /System/Library/Frameworks/Quartz.framework/
+ 4413 ??         0:05.32 /System/Library/PrivateFrameworks/ViewBridge
+ 5974 ??         0:00.08 /System/Library/Frameworks/SafariServices.fr
+10018 ??         0:00.13 /System/Library/Frameworks/Security.framewor
+10037 ??         0:00.14 /usr/sbin/distnoted agent
+10045 ??         0:02.27 /System/Library/Frameworks/CoreServices.fram
+11028 ??         0:00.08 /System/Library/PrivateFrameworks/StorageMan
+11029 ??         0:00.10 /System/Library/CoreServices/EscrowSecurityA
+11594 ??         0:00.02 /usr/libexec/periodic-wrapper daily
+11596 ??         0:00.18 /System/Library/PrivateFrameworks/PhotoAnaly
+11597 ??         0:00.12 /System/Library/PrivateFrameworks/QuickLookT
+11598 ??         0:00.48 /usr/libexec/silhouette
+11599 ??         0:00.29 /System/Library/PrivateFrameworks/IMDPersist
+11602 ??         0:00.50 /System/Library/CoreServices/mapspushd
+11615 ??         0:00.25 /System/Library/Frameworks/CoreServices.fram
+11630 ??         0:00.08 /usr/bin/sysdiagnose
+11631 ??         0:00.23 /usr/libexec/AssetCache/AssetCache
+11765 ??         0:00.06 /System/Library/PrivateFrameworks/CommerceKi
+11766 ??         0:00.14 /System/Library/PrivateFrameworks/CommerceKi
+13694 ??         0:00.02 /System/Library/PrivateFrameworks/StoreXPCSe
+13698 ??         0:02.01 /usr/libexec/rtcreportingd
+14688 ??         0:00.02 /usr/libexec/applessdstatistics
+14690 ??         0:11.87 /System/Library/PrivateFrameworks/AssistantS
+21728 ??         0:00.20 /usr/libexec/swcd
+21794 ??         0:00.25 /Library/Frameworks/iTunesLibrary.framework/
+21795 ??         0:00.20 /usr/libexec/siriknowledged
+28517 ??         0:00.27 /System/Library/PrivateFrameworks/SafariShar
+28538 ??         0:00.10 /System/Library/Frameworks/CoreServices.fram
+28554 ??         0:00.06 /System/Library/PrivateFrameworks/Communicat
+28557 ??         0:01.41 /System/Library/PrivateFrameworks/AssetCache
+28574 ??         0:00.31 /System/Library/PrivateFrameworks/CoreRecent
+28575 ??         0:00.38 /System/Library/PrivateFrameworks/CoreSugges
+28577 ??         0:00.05 /System/Library/PrivateFrameworks/ToneLibrar
+28578 ??         0:32.52 /Applications/Messages.app/Contents/MacOS/Me
+28579 ??         0:00.06 /System/Library/PrivateFrameworks/CharacterP
+28581 ??         0:00.49 /System/Library/Frameworks/Metal.framework/V
+28802 ??         0:00.05 /System/Library/Frameworks/MediaAccessibilit
+28803 ??         0:00.02 /System/Library/Frameworks/AudioToolbox.fram
+28820 ??         0:00.20 /System/Library/Frameworks/Metal.framework/V
+29353 ??         0:00.91 /usr/libexec/avconferenced
+29373 ??         0:00.40 /usr/libexec/dprivacyd
+29425 ??         0:00.20 /System/Library/PrivateFrameworks/IMFoundati
+30188 ??         0:00.05 /usr/bin/ssh-agent -l
+30788 ??         0:47.82 /Applications/Microsoft Excel.app/Contents/M
+30810 ??         0:00.43 /System/Library/Frameworks/Metal.framework/V
+37814 ??         0:01.78 /System/Library/Frameworks/ApplicationServic
+37815 ??         0:01.70 /System/Library/PrivateFrameworks/GameCenter
+37818 ??         0:00.18 /System/Library/PrivateFrameworks/SpeechReco
+37978 ??         0:00.02 /System/Library/Frameworks/AudioToolbox.fram
+42008 ??         0:00.03 /System/Library/PrivateFrameworks/Distribute
+42874 ??         0:01.05 /usr/sbin/cupsd -l
+42875 ??         0:00.04 /System/Library/Frameworks/ApplicationServic
+47227 ??         1:02.60 /Applications/Utilities/Terminal.app/Content
+47228 ??         0:01.13 /System/Library/PrivateFrameworks/CommerceKi
+47383 ??         0:00.16 /System/Library/PrivateFrameworks/ContextKit
+47473 ??         0:08.81 /System/Library/Frameworks/CoreServices.fram
+47554 ??         0:11.42 /System/Library/Frameworks/CoreServices.fram
+47822 ??         0:12.24 /System/Library/Frameworks/CoreServices.fram
+47870 ??         0:12.34 /System/Library/Frameworks/CoreServices.fram
+58333 ??         0:00.70 /usr/sbin/netbiosd
+59355 ??         0:00.09 /System/Library/Frameworks/CoreServices.fram
+60761 ??         0:02.56 /Applications/TextEdit.app/Contents/MacOS/Te
+60890 ??         0:00.57 /System/Library/CoreServices/CoreServicesUIA
+65223 ??         0:00.04 /System/Library/PrivateFrameworks/SystemAdmi
+65224 ??         0:00.04 /System/Library/PrivateFrameworks/AssetCache
+65225 ??         0:00.06 /System/Library/PrivateFrameworks/AssetCache
+65241 ??         0:00.01 /usr/libexec/smd
+70069 ??         0:48.32 /Applications/Google Chrome.app/Contents/Mac
+70070 ??         0:00.07 /usr/libexec/gamecontrollerd
+70072 ??         0:00.02 /Applications/Google Chrome.app/Contents/Ver
+70074 ??         0:34.41 /Applications/Google Chrome.app/Contents/Ver
+70075 ??         0:00.03 /Applications/Google Chrome.app/Contents/Ver
+70076 ??         0:00.09 /System/Library/Frameworks/VideoToolbox.fram
+70077 ??         0:09.45 /Applications/Google Chrome.app/Contents/Ver
+70078 ??         0:35.38 /Applications/Google Chrome.app/Contents/Ver
+70081 ??         0:00.36 /Applications/Google Chrome.app/Contents/Ver
+70082 ??         0:00.29 /Applications/Google Chrome.app/Contents/Ver
+70103 ??         0:11.94 /Applications/Google Chrome.app/Contents/Ver
+70104 ??         0:00.41 /Applications/Google Chrome.app/Contents/Ver
+70105 ??         0:12.70 /Applications/Google Chrome.app/Contents/Ver
+70106 ??         0:00.43 /Applications/Google Chrome.app/Contents/Ver
+70107 ??         0:05.66 /Applications/Google Chrome.app/Contents/Ver
+70109 ??         0:01.28 /Applications/Google Chrome.app/Contents/Ver
+70476 ??         0:00.13 /System/Library/Frameworks/QuickLook.framewo
+70522 ??         0:00.10 sshd: roy [priv] 
+70524 ??         0:00.01 sshd: roy@ttys002 
+61476 ttys000    0:00.03 login -pf roy
+61477 ttys000    0:00.03 -bash
+61593 ttys000    0:00.20 ssh -i roy5.pem ec2-user@ec2-174-129-48-219.
+64802 ttys001    0:00.04 login -pfl roy /bin/bash -c exec -la bash /b
+64803 ttys001    0:00.13 -bash
+66527 ttys001    0:00.07 sudo -i
+66541 ttys001    0:00.04 -sh
+70525 ttys002    0:00.01 -bash
+70727 ttys002    0:00.01 ps -ax
+Roys-Air:~ roy$ kill 30788
+Roys-Air:~ roy$ kill 30788
+-bash: kill: (30788) - No such process
+Roys-Air:~ roy$ ps -ax
+  PID TTY           TIME CMD
+    1 ??         2:09.42 /sbin/launchd
+   39 ??         0:09.18 /usr/sbin/syslogd
+   40 ??         0:09.26 /usr/libexec/UserEventAgent (System)
+   42 ??         0:00.13 /Library/PrivilegedHelperTools/PT.updd
+   44 ??         0:11.48 /usr/libexec/kextd
+   45 ??         0:02.52 /System/Library/PrivateFrameworks/Uninstall.
+   46 ??         0:19.25 /System/Library/Frameworks/CoreServices.fram
+   48 ??         0:00.66 /System/Library/PrivateFrameworks/MediaRemot
+   50 ??         0:00.76 /System/Library/CoreServices/appleeventsd --
+   51 ??         0:11.48 /usr/sbin/systemstats --daemon
+   53 ??         0:06.26 /usr/libexec/configd
+   54 ??         0:25.04 /System/Library/CoreServices/powerd.bundle/p
+   57 ??         1:08.25 /usr/libexec/logd
+   58 ??         0:00.03 /usr/libexec/keybagd -t 15
+   64 ??         0:01.88 /usr/libexec/warmd
+   65 ??         0:54.04 /System/Library/Frameworks/CoreServices.fram
+   66 ??         0:00.17 /System/Library/CoreServices/iconservicesd
+   67 ??         0:00.05 /System/Library/CoreServices/iconservicesage
+   68 ??         0:00.93 /usr/libexec/diskarbitrationd
+   71 ??         0:00.74 /System/Library/CoreServices/backupd.bundle/
+   72 ??         0:16.45 /usr/libexec/coreduetd
+   75 ??         2:15.85 /usr/libexec/opendirectoryd
+   76 ??         0:04.60 /System/Library/PrivateFrameworks/ApplePushS
+   77 ??         0:00.12 /System/Library/PrivateFrameworks/Noticeboar
+   78 ??         0:08.90 /System/Library/CoreServices/launchservicesd
+   79 ??         0:00.90 /usr/libexec/timed
+   80 ??         0:10.37 /usr/sbin/securityd -i
+   81 ??         0:00.13 /System/Library/PrivateFrameworks/MobileDevi
+   83 ??         0:44.08 /usr/libexec/locationd
+   84 ??         0:00.02 autofsd
+   85 ??         0:00.29 /usr/libexec/displaypolicyd -k 1
+   87 ??         0:08.87 /usr/libexec/dasd
+   88 ??         0:00.23 /System/Library/PrivateFrameworks/Heimdal.fr
+   91 ??         0:13.77 /System/Library/CoreServices/loginwindow.app
+   92 ??         0:00.13 /System/Library/CoreServices/logind
+   93 ??         0:00.24 /System/Library/PrivateFrameworks/Generation
+   94 ??         0:00.02 /usr/sbin/KernelEventAgent
+   96 ??         0:04.03 /usr/sbin/bluetoothd
+   97 ??         5:46.14 /usr/libexec/hidd
+   98 ??         0:37.69 /usr/libexec/corebrightnessd --launchd
+   99 ??         0:00.77 /usr/libexec/AirPlayXPCHelper
+  100 ??         0:00.09 /usr/libexec/taskgated -s
+  101 ??         2:33.37 /usr/sbin/notifyd
+  102 ??         0:01.87 /usr/sbin/distnoted daemon
+  103 ??         0:49.50 /usr/sbin/cfprefsd daemon
+  107 ??         0:01.73 /System/Library/Frameworks/Security.framewor
+  108 ??         0:04.12 /System/Library/CoreServices/coreservicesd
+  119 ??         0:00.11 aslmanager
+  120 ??         0:00.24 /usr/libexec/nehelper
+  124 ??         0:00.03 /System/Library/Frameworks/PCSC.framework/Ve
+  127 ??         0:10.94 /usr/libexec/trustd
+  129 ??         0:00.04 /System/Library/Frameworks/CryptoTokenKit.fr
+  130 ??         0:59.94 /usr/libexec/airportd
+  131 ??         2:00.06 /usr/sbin/coreaudiod
+  132 ??         0:00.38 /System/Library/Frameworks/CoreAudio.framewo
+  162 ??         0:03.06 /System/Library/PrivateFrameworks/WirelessDi
+  163 ??         0:01.02 /System/Library/PrivateFrameworks/CoreAnalyt
+  164 ??         0:20.18 /usr/sbin/mDNSResponder
+  166 ??         0:03.45 /usr/sbin/mDNSResponderHelper
+  167 ??        44:06.46 /System/Library/PrivateFrameworks/SkyLight.f
+  176 ??         0:03.94 /usr/libexec/nsurlsessiond --privileged
+  178 ??         0:00.06 /usr/libexec/apfsd
+  179 ??         0:00.45 /usr/libexec/usbd
+  180 ??         0:01.48 /usr/libexec/powerlogd
+  182 ??         0:00.06 /System/Library/CryptoTokenKit/com.apple.ifd
+  186 ??         0:01.48 /System/Library/PrivateFrameworks/SignpostNo
+  188 ??         0:00.23 /usr/libexec/secinitd
+  189 ??         0:04.58 /usr/libexec/sysmond
+  210 ??         0:00.71 /usr/sbin/systemstats --logger-helper /priva
+  212 ??         0:02.15 /usr/libexec/mobileassetd
+  213 ??         0:00.63 /usr/libexec/lsd runAsRoot
+  216 ??         0:00.04 /System/Library/Frameworks/CoreMediaIO.frame
+  217 ??         0:00.43 /Library/CoreMediaIO/Plug-Ins/DAL/AppleCamer
+  218 ??         0:04.34 /usr/libexec/syspolicyd
+  219 ??         0:02.59 /usr/libexec/amfid
+  220 ??         0:11.23 /usr/libexec/symptomsd
+  221 ??         0:00.78 /usr/libexec/watchdogd
+  222 ??         0:00.95 /usr/libexec/sandboxd
+  224 ??         0:00.12 /System/Library/PrivateFrameworks/CoreSymbol
+  225 ??         1:36.47 /System/Library/Frameworks/CoreServices.fram
+  226 ??         0:00.11 /usr/libexec/nsurlstoraged --privileged
+  228 ??         0:00.36 /usr/libexec/captiveagent
+  231 ??         0:02.44 /System/Library/PrivateFrameworks/GeoService
+  232 ??         0:00.42 /usr/libexec/secinitd
+  233 ??         0:00.11 /usr/sbin/cfprefsd agent
+  234 ??         0:00.33 /usr/libexec/trustd --agent
+  236 ??         0:00.08 /usr/libexec/thermald
+  238 ??         0:00.11 /System/Library/Frameworks/AudioToolbox.fram
+  239 ??         0:00.03 /System/Library/Frameworks/AudioToolbox.fram
+  240 ??         0:00.05 /System/Library/Frameworks/OpenGL.framework/
+  241 ??         0:00.07 /usr/libexec/colorsync.displayservices
+  247 ??         0:00.03 /usr/libexec/colorsyncd
+  248 ??         0:00.42 /System/Library/Frameworks/Security.framewor
+  249 ??         0:00.22 /usr/libexec/findmydeviced
+  252 ??         0:00.04 /usr/libexec/bootinstalld
+  256 ??         0:02.08 /System/Library/PrivateFrameworks/Performanc
+  257 ??         0:00.08 /System/Library/Frameworks/CryptoTokenKit.fr
+  262 ??         0:00.14 /usr/libexec/diskmanagementd
+  263 ??         0:00.21 /System/Library/CoreServices/sharedfilelistd
+  265 ??         0:01.32 /usr/sbin/systemsoundserverd
+  266 ??         0:00.08 /System/Library/PrivateFrameworks/TCC.framew
+  267 ??         0:00.08 /System/Library/PrivateFrameworks/AccountPol
+  277 ??         0:00.17 /System/Library/Frameworks/LocalAuthenticati
+  288 ??         0:00.82 /System/Library/Frameworks/GSS.framework/Hel
+  290 ??         0:00.16 /usr/libexec/securityd_service
+  291 ??         0:25.59 /System/Library/PrivateFrameworks/AmbientDis
+  292 ??         0:05.74 /usr/sbin/cfprefsd agent
+  293 ??         0:06.75 /usr/libexec/UserEventAgent (Aqua)
+  295 ??         0:08.36 /usr/sbin/distnoted agent
+  297 ??         0:13.60 /System/Library/Frameworks/CoreTelephony.fra
+  298 ??         0:01.51 /usr/libexec/lsd
+  299 ??         0:23.84 /usr/libexec/trustd --agent
+  301 ??         0:00.90 /System/Library/CoreServices/sharedfilelistd
+  305 ??         0:01.00 /usr/libexec/secd
+  306 ??         0:06.29 /System/Library/PrivateFrameworks/CloudKitDa
+  307 ??         0:00.13 /System/Library/Frameworks/Security.framewor
+  308 ??         0:01.36 /System/Library/PrivateFrameworks/TelephonyU
+  309 ??         0:00.90 /usr/sbin/WirelessRadioManagerd
+  311 ??         0:04.07 /System/Library/Frameworks/Accounts.framewor
+  312 ??         0:03.96 /System/Library/PrivateFrameworks/IDS.framew
+  313 ??         0:03.18 /System/Library/PrivateFrameworks/IMCore.fra
+  314 ??         0:01.40 /System/Library/PrivateFrameworks/TCC.framew
+  315 ??         0:01.94 /System/Library/PrivateFrameworks/IMDPersist
+  316 ??         0:00.19 /usr/libexec/rapportd
+  317 ??         0:00.41 /System/Library/Frameworks/AddressBook.frame
+  318 ??         0:04.00 /usr/libexec/secinitd
+  319 ??         0:11.21 /usr/libexec/routined LAUNCHED_BY_LAUNCHD
+  320 ??         0:01.50 /usr/sbin/usernoted
+  321 ??         0:03.17 /usr/libexec/nsurlsessiond
+  322 ??         0:00.16 /usr/libexec/networkserviceproxy
+  323 ??         0:07.53 /System/Library/CoreServices/NotificationCen
+  324 ??         0:17.83 /System/Library/PrivateFrameworks/CalendarAg
+  325 ??         0:00.04 /System/Library/CoreServices/CrashReporterSu
+  326 ??         0:00.97 /usr/libexec/pboard
+  327 ??         0:02.39 /System/Library/CoreServices/WiFiAgent.app/C
+  328 ??         0:02.68 /System/Library/PrivateFrameworks/AuthKit.fr
+  329 ??         0:00.04 /System/Library/CoreServices/APFSUserAgent
+  330 ??         0:02.80 /usr/libexec/nsurlstoraged
+  331 ??         0:03.48 /System/Library/PrivateFrameworks/GeoService
+  332 ??         0:02.42 /System/Library/CoreServices/talagent
+  333 ??         0:09.74 /System/Library/Frameworks/ApplicationServic
+  334 ??         0:03.19 /System/Library/PrivateFrameworks/CalendarNo
+  336 ??         0:00.74 /usr/sbin/wirelessproxd
+  337 ??         0:06.52 /usr/libexec/sharingd
+  338 ??         0:00.56 /usr/sbin/spindump
+  339 ??         0:00.05 /usr/libexec/spindump_agent
+  340 ??         0:11.71 /System/Library/CoreServices/SubmitDiagInfo 
+  341 ??         0:25.71 /System/Library/CoreServices/Dock.app/Conten
+  342 ??         0:25.44 /System/Library/CoreServices/SystemUIServer.
+  343 ??         1:47.43 /System/Library/CoreServices/Finder.app/Cont
+  344 ??         0:01.56 /System/Library/Frameworks/InputMethodKit.fr
+  346 ??         0:11.85 /System/Library/CoreServices/Spotlight.app/C
+  348 ??         0:00.31 /System/Library/PrivateFrameworks/IMFoundati
+  350 ??         0:02.49 /System/Library/PrivateFrameworks/ContactsAg
+  351 ??         0:02.94 /usr/libexec/pkd
+  352 ??         0:01.58 /System/Library/PrivateFrameworks/MessagesKi
+  353 ??         0:03.60 /System/Library/PrivateFrameworks/UserActivi
+  354 ??         0:00.29 /usr/libexec/fmfd
+  355 ??         0:00.20 /System/Library/PrivateFrameworks/CommerceKi
+  358 ??         0:01.06 /System/Library/PrivateFrameworks/CoreWLANKi
+  360 ??         0:00.68 /System/Library/CoreServices/iconservicesage
+  363 ??         0:00.28 /System/Library/PrivateFrameworks/IMFoundati
+  364 ??         0:00.06 /System/Library/PrivateFrameworks/CoreCDP.fr
+  365 ??         0:00.30 /usr/sbin/filecoordinationd
+  366 ??         0:03.15 /System/Library/CoreServices/Dock.app/Conten
+  368 ??         0:00.58 /System/Library/PrivateFrameworks/CloudDocsD
+  376 ??         0:00.12 /System/Library/PrivateFrameworks/MediaRemot
+  378 ??         0:03.45 /System/Library/PrivateFrameworks/CoreParsec
+  380 ??         0:04.45 /System/Library/PrivateFrameworks/CommerceKi
+  384 ??         0:03.54 /System/Library/CoreServices/cloudphotosd.ap
+  386 ??         0:04.30 /System/Library/PrivateFrameworks/CoreSugges
+  388 ??         0:03.44 /System/Library/Input Methods/PressAndHold.a
+  390 ??         0:00.05 /System/Library/CoreServices/NotificationCen
+  391 ??         0:00.50 /System/Library/PrivateFrameworks/CallHistor
+  394 ??         0:00.18 /System/Library/PrivateFrameworks/CoreADI.fr
+  405 ??         0:00.08 /System/Library/Frameworks/LocalAuthenticati
+  423 ??         0:00.24 /System/Library/CoreServices/pbs
+  424 ??         0:00.02 SafeEjectGPUAgent
+  425 ??         0:00.08 /System/Library/CoreServices/Menu Extras/Saf
+  427 ??         0:00.17 /usr/libexec/videosubscriptionsd
+  430 ??         0:00.42 /System/Library/PrivateFrameworks/CacheDelet
+  431 ??         0:02.42 /System/Library/CoreServices/CoreLocationAge
+  433 ??         0:05.11 /System/Library/PrivateFrameworks/AssistantS
+  435 ??         0:00.28 /System/Library/PrivateFrameworks/FileProvid
+  437 ??         0:02.24 /usr/sbin/ckkeyrolld
+  439 ??         0:00.17 /System/Library/CoreServices/SocialPushAgent
+  442 ??         0:00.18 /usr/libexec/dmd
+  443 ??         0:05.74 /System/Library/CoreServices/Siri.app/Conten
+  444 ??         0:00.46 /System/Library/Image Capture/Support/icdd
+  446 ??         0:02.51 /System/Library/CoreServices/AirPlayUIAgent.
+  447 ??         0:01.07 /usr/libexec/knowledge-agent
+  448 ??         0:00.45 /System/Library/CoreServices/cloudpaird
+  449 ??         0:03.35 /System/Library/PrivateFrameworks/Noticeboar
+  450 ??         0:01.15 /System/Library/CoreServices/diagnostics_age
+  452 ??         0:00.23 /System/Library/CoreServices/backgroundtaskm
+  453 ??         0:00.09 /System/Library/Frameworks/CryptoTokenKit.fr
+  454 ??         0:00.07 /System/Library/Frameworks/CryptoTokenKit.fr
+  456 ??         0:01.48 /Applications/iTunes.app/Contents/MacOS/iTun
+  467 ??         0:01.00 /System/Library/PrivateFrameworks/PrintingPr
+  477 ??         0:16.76 /System/Library/CoreServices/SafariSupport.b
+  478 ??         0:00.09 /System/Library/PrivateFrameworks/CoreFollow
+  479 ??         0:00.28 /System/Library/PrivateFrameworks/CloudPhoto
+  482 ??         0:00.13 /usr/libexec/dmd
+  485 ??         0:00.29 /System/Library/PrivateFrameworks/AssistantS
+  486 ??         0:00.30 /System/Library/PrivateFrameworks/PhotoLibra
+  487 ??         0:00.06 /usr/libexec/USBAgent
+  488 ??         0:00.26 /Library/Frameworks/iTunesLibrary.framework/
+  489 ??         0:00.21 /System/Library/Frameworks/AudioToolbox.fram
+  490 ??         0:02.96 /System/Library/PrivateFrameworks/PassKitCor
+  492 ??         0:00.48 /System/Library/PrivateFrameworks/ContactsDo
+  493 ??         0:00.08 /usr/libexec/nfcd
+  494 ??         0:00.09 /System/Library/CoreServices/Software Update
+  495 ??         0:16.30 /System/Library/CoreServices/Software Update
+  496 ??         0:00.08 /System/Library/CoreServices/Software Update
+  498 ??         0:00.11 /System/Library/PrivateFrameworks/CommerceKi
+  506 ??         0:02.95 /System/Library/PrivateFrameworks/CommerceKi
+  515 ??         0:02.82 /System/Library/PrivateFrameworks/CommerceKi
+  523 ??         0:00.85 /usr/libexec/trustd --agent
+  578 ??         0:00.18 /usr/sbin/distnoted agent
+  610 ??         0:05.11 /System/Library/CoreServices/Siri.app/Conten
+  706 ??         0:03.23 /System/Library/PrivateFrameworks/CommerceKi
+  708 ??         0:00.13 /System/Library/PrivateFrameworks/CommerceKi
+  709 ??         0:00.49 /System/Library/Frameworks/ApplicationServic
+  710 ??         0:00.48 /System/Library/CoreServices/ScopedBookmarkA
+  762 ??         0:03.56 /System/Library/CoreServices/OSDUIHelper.app
+  823 ??         0:00.03 /System/Library/Frameworks/AudioToolbox.fram
+ 1331 ??         0:00.21 /System/Library/Frameworks/CoreServices.fram
+ 1792 ??         0:06.39 /System/Library/Services/AppleSpell.service/
+ 1793 ??         0:01.20 /usr/libexec/keyboardservicesd
+ 4412 ??         0:14.67 /System/Library/Frameworks/Quartz.framework/
+ 4413 ??         0:05.32 /System/Library/PrivateFrameworks/ViewBridge
+ 5974 ??         0:00.08 /System/Library/Frameworks/SafariServices.fr
+10018 ??         0:00.13 /System/Library/Frameworks/Security.framewor
+10037 ??         0:00.14 /usr/sbin/distnoted agent
+10045 ??         0:02.28 /System/Library/Frameworks/CoreServices.fram
+11028 ??         0:00.08 /System/Library/PrivateFrameworks/StorageMan
+11029 ??         0:00.10 /System/Library/CoreServices/EscrowSecurityA
+11594 ??         0:00.02 /usr/libexec/periodic-wrapper daily
+11596 ??         0:00.18 /System/Library/PrivateFrameworks/PhotoAnaly
+11597 ??         0:00.12 /System/Library/PrivateFrameworks/QuickLookT
+11598 ??         0:00.48 /usr/libexec/silhouette
+11599 ??         0:00.29 /System/Library/PrivateFrameworks/IMDPersist
+11602 ??         0:00.50 /System/Library/CoreServices/mapspushd
+11615 ??         0:00.25 /System/Library/Frameworks/CoreServices.fram
+11630 ??         0:00.08 /usr/bin/sysdiagnose
+11631 ??         0:00.23 /usr/libexec/AssetCache/AssetCache
+11765 ??         0:00.06 /System/Library/PrivateFrameworks/CommerceKi
+11766 ??         0:00.14 /System/Library/PrivateFrameworks/CommerceKi
+13694 ??         0:00.02 /System/Library/PrivateFrameworks/StoreXPCSe
+13698 ??         0:02.01 /usr/libexec/rtcreportingd
+14688 ??         0:00.02 /usr/libexec/applessdstatistics
+14690 ??         0:12.26 /System/Library/PrivateFrameworks/AssistantS
+21728 ??         0:00.21 /usr/libexec/swcd
+21794 ??         0:00.25 /Library/Frameworks/iTunesLibrary.framework/
+21795 ??         0:00.21 /usr/libexec/siriknowledged
+28517 ??         0:00.27 /System/Library/PrivateFrameworks/SafariShar
+28538 ??         0:00.10 /System/Library/Frameworks/CoreServices.fram
+28554 ??         0:00.06 /System/Library/PrivateFrameworks/Communicat
+28557 ??         0:01.42 /System/Library/PrivateFrameworks/AssetCache
+28574 ??         0:00.31 /System/Library/PrivateFrameworks/CoreRecent
+28575 ??         0:00.38 /System/Library/PrivateFrameworks/CoreSugges
+28577 ??         0:00.05 /System/Library/PrivateFrameworks/ToneLibrar
+28578 ??         0:32.52 /Applications/Messages.app/Contents/MacOS/Me
+28579 ??         0:00.06 /System/Library/PrivateFrameworks/CharacterP
+28581 ??         0:00.49 /System/Library/Frameworks/Metal.framework/V
+28802 ??         0:00.05 /System/Library/Frameworks/MediaAccessibilit
+28803 ??         0:00.02 /System/Library/Frameworks/AudioToolbox.fram
+28820 ??         0:00.20 /System/Library/Frameworks/Metal.framework/V
+29353 ??         0:00.91 /usr/libexec/avconferenced
+29373 ??         0:00.40 /usr/libexec/dprivacyd
+29425 ??         0:00.21 /System/Library/PrivateFrameworks/IMFoundati
+30188 ??         0:00.05 /usr/bin/ssh-agent -l
+37814 ??         0:01.78 /System/Library/Frameworks/ApplicationServic
+37815 ??         0:01.76 /System/Library/PrivateFrameworks/GameCenter
+37818 ??         0:00.18 /System/Library/PrivateFrameworks/SpeechReco
+37978 ??         0:00.02 /System/Library/Frameworks/AudioToolbox.fram
+42008 ??         0:00.03 /System/Library/PrivateFrameworks/Distribute
+42874 ??         0:01.06 /usr/sbin/cupsd -l
+42875 ??         0:00.04 /System/Library/Frameworks/ApplicationServic
+47227 ??         1:02.86 /Applications/Utilities/Terminal.app/Content
+47228 ??         0:01.14 /System/Library/PrivateFrameworks/CommerceKi
+47383 ??         0:00.16 /System/Library/PrivateFrameworks/ContextKit
+47473 ??         0:08.95 /System/Library/Frameworks/CoreServices.fram
+47554 ??         0:11.53 /System/Library/Frameworks/CoreServices.fram
+47822 ??         0:12.35 /System/Library/Frameworks/CoreServices.fram
+47870 ??         0:12.44 /System/Library/Frameworks/CoreServices.fram
+58333 ??         0:00.70 /usr/sbin/netbiosd
+59355 ??         0:00.09 /System/Library/Frameworks/CoreServices.fram
+60761 ??         0:03.88 /Applications/TextEdit.app/Contents/MacOS/Te
+60890 ??         0:00.67 /System/Library/CoreServices/CoreServicesUIA
+65223 ??         0:00.04 /System/Library/PrivateFrameworks/SystemAdmi
+65224 ??         0:00.04 /System/Library/PrivateFrameworks/AssetCache
+65225 ??         0:00.06 /System/Library/PrivateFrameworks/AssetCache
+65241 ??         0:00.01 /usr/libexec/smd
+70069 ??         0:49.39 /Applications/Google Chrome.app/Contents/Mac
+70070 ??         0:00.08 /usr/libexec/gamecontrollerd
+70072 ??         0:00.02 /Applications/Google Chrome.app/Contents/Ver
+70074 ??         0:35.10 /Applications/Google Chrome.app/Contents/Ver
+70075 ??         0:00.03 /Applications/Google Chrome.app/Contents/Ver
+70076 ??         0:00.09 /System/Library/Frameworks/VideoToolbox.fram
+70077 ??         0:09.50 /Applications/Google Chrome.app/Contents/Ver
+70078 ??         0:35.43 /Applications/Google Chrome.app/Contents/Ver
+70081 ??         0:00.37 /Applications/Google Chrome.app/Contents/Ver
+70082 ??         0:00.30 /Applications/Google Chrome.app/Contents/Ver
+70103 ??         0:13.37 /Applications/Google Chrome.app/Contents/Ver
+70104 ??         0:00.42 /Applications/Google Chrome.app/Contents/Ver
+70105 ??         0:12.88 /Applications/Google Chrome.app/Contents/Ver
+70106 ??         0:00.44 /Applications/Google Chrome.app/Contents/Ver
+70107 ??         0:05.67 /Applications/Google Chrome.app/Contents/Ver
+70109 ??         0:01.29 /Applications/Google Chrome.app/Contents/Ver
+70522 ??         0:00.10 sshd: roy [priv] 
+70524 ??         0:00.03 sshd: roy@ttys002 
+70864 ??         0:00.11 /System/Library/Frameworks/QuickLook.framewo
+70885 ??         0:04.55 /Applications/Microsoft Excel.app/Contents/M
+70901 ??         0:00.60 /Applications/Microsoft Excel.app/Contents/S
+70902 ??         0:00.03 /System/Library/Frameworks/Security.framewor
+70903 ??         0:00.27 /Library/Application Support/Microsoft/MAU2.
+70904 ??         0:00.07 /Library/PrivilegedHelperTools/com.microsoft
+70906 ??         0:00.02 /usr/sbin/ocspd
+70923 ??         0:01.05 /System/Library/Frameworks/CoreServices.fram
+70924 ??         0:01.05 /System/Library/Frameworks/CoreServices.fram
+61476 ttys000    0:00.03 login -pf roy
+61477 ttys000    0:00.03 -bash
+61593 ttys000    0:00.20 ssh -i roy5.pem ec2-user@ec2-174-129-48-219.
+64802 ttys001    0:00.04 login -pfl roy /bin/bash -c exec -la bash /b
+64803 ttys001    0:00.13 -bash
+66527 ttys001    0:00.07 sudo -i
+66541 ttys001    0:00.04 -sh
+70525 ttys002    0:00.02 -bash
+70940 ttys002    0:00.01 ps -ax
+Roys-Air:~ roy$ kill 70885,70901
+-bash: kill: 70885,70901: arguments must be process or job IDs
+Roys-Air:~ roy$ kill 70885 70901
+Roys-Air:~ roy$ open -a iTunes
+Roys-Air:~ roy$ open -a Siri
+Roys-Air:~ roy$ logout
+Connection to 192.168.1.122 closed.
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ arp -a
+Chromecast.attlocal.net (192.168.1.143) at <incomplete> on wlp18s0
+DESKTOP-5ELNJFC.attlocal.net (192.168.1.116) at 00:e1:8c:ae:e0:b1 [ether] on wlp18s0
+Roys-Air.attlocal.net (192.168.1.122) at 48:d7:05:b9:b4:23 [ether] on wlp18s0
+dsldevice.attlocal.net (192.168.1.254) at f8:f5:32:3a:46:40 [ether] on wlp18s0
+Jathin.attlocal.net (192.168.1.68) at 34:e6:ad:37:cd:4b [ether] on wlp18s0
+unknownf4a99751d822.attlocal.net (192.168.1.96) at f4:a9:97:51:d8:22 [ether] on wlp18s0
+vishwaksena@vishwaksena-Ubuntu:/etc/ssh$ cd ~
+vishwaksena@vishwaksena-Ubuntu:~$ arp -a
+dsldevice.attlocal.net (192.168.1.254) at f8:f5:32:3a:46:40 [ether] on wlp18s0
+unknownf4a99751d822.attlocal.net (192.168.1.96) at f4:a9:97:51:d8:22 [ether] on wlp18s0
+vishwaksena@vishwaksena-Ubuntu:~$ arp -a
+dsldevice.attlocal.net (192.168.1.254) at f8:f5:32:3a:46:40 [ether] on wlp18s0
+unknownf4a99751d822.attlocal.net (192.168.1.96) at f4:a9:97:51:d8:22 [ether] on wlp18s0
+vishwaksena@vishwaksena-Ubuntu:~$ arp -a
+dsldevice.attlocal.net (192.168.1.254) at f8:f5:32:3a:46:40 [ether] on wlp18s0
+Jathin.attlocal.net (192.168.1.68) at 34:e6:ad:37:cd:4b [ether] on wlp18s0
+unknownf4a99751d822.attlocal.net (192.168.1.96) at f4:a9:97:51:d8:22 [ether] on wlp18s0
+vishwaksena@vishwaksena-Ubuntu:~$ arp -a
+dsldevice.attlocal.net (192.168.1.254) at f8:f5:32:3a:46:40 [ether] on wlp18s0
+Jathin.attlocal.net (192.168.1.68) at 34:e6:ad:37:cd:4b [ether] on wlp18s0
+unknownf4a99751d822.attlocal.net (192.168.1.96) at f4:a9:97:51:d8:22 [ether] on wlp18s0
+vishwaksena@vishwaksena-Ubuntu:~$ arp -a
+dsldevice.attlocal.net (192.168.1.254) at f8:f5:32:3a:46:40 [ether] on wlp18s0
+Jathin.attlocal.net (192.168.1.68) at 34:e6:ad:37:cd:4b [ether] on wlp18s0
+unknownf4a99751d822.attlocal.net (192.168.1.96) at f4:a9:97:51:d8:22 [ether] on wlp18s0
+vishwaksena@vishwaksena-Ubuntu:~$ arp -a
+dsldevice.attlocal.net (192.168.1.254) at f8:f5:32:3a:46:40 [ether] on wlp18s0
+Jathin.attlocal.net (192.168.1.68) at 34:e6:ad:37:cd:4b [ether] on wlp18s0
+unknownf4a99751d822.attlocal.net (192.168.1.96) at f4:a9:97:51:d8:22 [ether] on wlp18s0
+vishwaksena@vishwaksena-Ubuntu:~$ arp -a
+dsldevice.attlocal.net (192.168.1.254) at f8:f5:32:3a:46:40 [ether] on wlp18s0
+Jathin.attlocal.net (192.168.1.68) at 34:e6:ad:37:cd:4b [ether] on wlp18s0
+unknownf4a99751d822.attlocal.net (192.168.1.96) at f4:a9:97:51:d8:22 [ether] on wlp18s0
+vishwaksena@vishwaksena-Ubuntu:~$ arp -a
+dsldevice.attlocal.net (192.168.1.254) at f8:f5:32:3a:46:40 [ether] on wlp18s0
+Jathin.attlocal.net (192.168.1.68) at 34:e6:ad:37:cd:4b [ether] on wlp18s0
+unknownf4a99751d822.attlocal.net (192.168.1.96) at f4:a9:97:51:d8:22 [ether] on wlp18s0
+vishwaksena@vishwaksena-Ubuntu:~$ arp -a
+dsldevice.attlocal.net (192.168.1.254) at f8:f5:32:3a:46:40 [ether] on wlp18s0
+Jathin.attlocal.net (192.168.1.68) at 34:e6:ad:37:cd:4b [ether] on wlp18s0
+unknownf4a99751d822.attlocal.net (192.168.1.96) at f4:a9:97:51:d8:22 [ether] on wlp18s0
+vishwaksena@vishwaksena-Ubuntu:~$ arp -a
+dsldevice.attlocal.net (192.168.1.254) at f8:f5:32:3a:46:40 [ether] on wlp18s0
+Jathin.attlocal.net (192.168.1.68) at 34:e6:ad:37:cd:4b [ether] on wlp18s0
+unknownf4a99751d822.attlocal.net (192.168.1.96) at f4:a9:97:51:d8:22 [ether] on wlp18s0
+vishwaksena@vishwaksena-Ubuntu:~$ arp -a
+dsldevice.attlocal.net (192.168.1.254) at f8:f5:32:3a:46:40 [ether] on wlp18s0
+Jathin.attlocal.net (192.168.1.68) at 34:e6:ad:37:cd:4b [ether] on wlp18s0
+unknownf4a99751d822.attlocal.net (192.168.1.96) at f4:a9:97:51:d8:22 [ether] on wlp18s0
+vishwaksena@vishwaksena-Ubuntu:~$ arp -a
+dsldevice.attlocal.net (192.168.1.254) at f8:f5:32:3a:46:40 [ether] on wlp18s0
+Jathin.attlocal.net (192.168.1.68) at 34:e6:ad:37:cd:4b [ether] on wlp18s0
+unknownf4a99751d822.attlocal.net (192.168.1.96) at f4:a9:97:51:d8:22 [ether] on wlp18s0
+vishwaksena@vishwaksena-Ubuntu:~$ 
+vishwaksena@vishwaksena-Ubuntu:~$ arp -a
+dsldevice.attlocal.net (192.168.1.254) at f8:f5:32:3a:46:40 [ether] on wlp18s0
+Jathin.attlocal.net (192.168.1.68) at 34:e6:ad:37:cd:4b [ether] on wlp18s0
+unknownf4a99751d822.attlocal.net (192.168.1.96) at f4:a9:97:51:d8:22 [ether] on wlp18s0
+vishwaksena@vishwaksena-Ubuntu:~$ ssh Jathin@192.168.1.68
+
+
+
+^Z
+[4]+  Stopped                 ssh Jathin@192.168.1.68
+vishwaksena@vishwaksena-Ubuntu:~$ arp -a
+dsldevice.attlocal.net (192.168.1.254) at f8:f5:32:3a:46:40 [ether] on wlp18s0
+Jathin.attlocal.net (192.168.1.68) at 34:e6:ad:37:cd:4b [ether] on wlp18s0
+unknownf4a99751d822.attlocal.net (192.168.1.96) at f4:a9:97:51:d8:22 [ether] on wlp18s0
+vishwaksena@vishwaksena-Ubuntu:~$ ifconfig
+enp19s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 78:2b:cb:d0:73:3b  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 10746  bytes 980740 (980.7 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 10746  bytes 980740 (980.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp18s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.136  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::fc9d:2e56:84b0:54e2  prefixlen 64  scopeid 0x20<link>
+        inet6 2600:1700:6e1:2bd0::2c  prefixlen 128  scopeid 0x0<global>
+        inet6 2600:1700:6e1:2bd0:f245:c48a:a5d7:4e08  prefixlen 64  scopeid 0x0<global>
+        inet6 2600:1700:6e1:2bd0:2485:8129:f383:36d2  prefixlen 64  scopeid 0x0<global>
+        ether 68:a3:c4:29:15:f6  txqueuelen 1000  (Ethernet)
+        RX packets 500035  bytes 323048698 (323.0 MB)
+        RX errors 0  dropped 5  overruns 0  frame 689752
+        TX packets 182671  bytes 55305226 (55.3 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 17  
+
+vishwaksena@vishwaksena-Ubuntu:~$ ip route | grep default
+default via 192.168.1.254 dev wlp18s0 proto dhcp metric 600 
+vishwaksena@vishwaksena-Ubuntu:~$ ssh karun@192.168.1.84
+ssh: connect to host 192.168.1.84 port 22: No route to host
+vishwaksena@vishwaksena-Ubuntu:~$ ^C
+vishwaksena@vishwaksena-Ubuntu:~$ ssh karun@192.168.1.79
+^Z
+[5]+  Stopped                 ssh karun@192.168.1.79
+vishwaksena@vishwaksena-Ubuntu:~$ ifconfig
+enp19s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 78:2b:cb:d0:73:3b  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 11980  bytes 1104735 (1.1 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 11980  bytes 1104735 (1.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp18s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.136  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::fc9d:2e56:84b0:54e2  prefixlen 64  scopeid 0x20<link>
+        inet6 2600:1700:6e1:2bd0::2c  prefixlen 128  scopeid 0x0<global>
+        inet6 2600:1700:6e1:2bd0:f245:c48a:a5d7:4e08  prefixlen 64  scopeid 0x0<global>
+        inet6 2600:1700:6e1:2bd0:2485:8129:f383:36d2  prefixlen 64  scopeid 0x0<global>
+        ether 68:a3:c4:29:15:f6  txqueuelen 1000  (Ethernet)
+        RX packets 523146  bytes 337711220 (337.7 MB)
+        RX errors 0  dropped 5  overruns 0  frame 709293
+        TX packets 193705  bytes 57756390 (57.7 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 17  
+
+vishwaksena@vishwaksena-Ubuntu:~$ ls
+2eg        Downloads         Music     sample     Videos
+Desktop    eg.txt            Pictures  snap
+Documents  examples.desktop  Public    Templates
+vishwaksena@vishwaksena-Ubuntu:~$ cd Documents/
+vishwaksena@vishwaksena-Ubuntu:~/Documents$ mkdir github
+vishwaksena@vishwaksena-Ubuntu:~/Documents$ cd github
+vishwaksena@vishwaksena-Ubuntu:~/Documents/github$ git clone https://github.com/vishwakvl/Working.git
+Cloning into 'Working'...
+remote: Counting objects: 16, done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 16 (delta 1), reused 15 (delta 0), pack-reused 0
+Unpacking objects: 100% (16/16), done.
+vishwaksena@vishwaksena-Ubuntu:~/Documents/github$ ls
+Working
+vishwaksena@vishwaksena-Ubuntu:~/Documents/github$ cd Working/
+vishwaksena@vishwaksena-Ubuntu:~/Documents/github/Working$ ls
+b1  linux  rules  src
+vishwaksena@vishwaksena-Ubuntu:~/Documents/github/Working$ cd linux/
+vishwaksena@vishwaksena-Ubuntu:~/Documents/github/Working/linux$ ls
+commands.txt
+vishwaksena@vishwaksena-Ubuntu:~/Documents/github/Working/linux$ 
 
